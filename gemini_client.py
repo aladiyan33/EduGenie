@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
 
 @lru_cache(maxsize=1)
 def get_client() -> genai.Client:
