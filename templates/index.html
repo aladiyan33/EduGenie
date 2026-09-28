@@ -92,8 +92,7 @@ function escapeHtml(value) {
 }
 
 function formatText(value) {
-  return escapeHtml(value).replace(/
-/g, "<br>");
+  return escapeHtml(value).replace(/\r?\n/g, "<br>");
 }
 
 async function runTask() {
