@@ -1,14 +1,18 @@
 from gemini_client import generate_text
 
 
-def summarize_text(text: str, length: str = "medium") -> str:
+def summarize_text(text: str) -> str:
     text = text.strip()
     if not text:
         raise ValueError("Text cannot be empty.")
-    rules = {
-        "short": "Give 3-5 concise bullet points.",
-        "medium": "Give a compact summary with the key ideas and important details.",
-        "long": "Give a detailed but focused summary while preserving the main ideas.",
-    }
-    prompt = "Summarize the following study material for a student. " + rules.get(length, rules["medium"]) + "\nDo not invent facts.\n\nSOURCE:\n" + text
+
+    prompt = f"""
+Summarize the following educational passage for a student.
+Keep the important ideas, key facts, and relationships.
+Use short paragraphs or bullet points where helpful.
+Do not invent information that is not present in the source.
+
+Passage:
+{text}
+"""
     return generate_text(prompt)
