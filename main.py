@@ -32,27 +32,43 @@ class LearningPathRequest(BaseModel):
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request=request, name="index.html", context={})
+
 @app.get("/health")
 async def health():
     return {"status": "ok", "service": "EduGenie"}
+
 @app.post("/api/explain")
 async def explain(payload: ExplainRequest):
-    try: return {"result": explain_topic(payload.topic, payload.level)}
-    except Exception as exc: raise HTTPException(status_code=500, detail=str(exc)) from exc
+    try:
+        return {"result": explain_topic(payload.topic, payload.level)}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
 @app.post("/api/qna")
 async def qna(payload: QnARequest):
-    try: return {"result": answer_question(payload.question)}
-    except Exception as exc: raise HTTPException(status_code=500, detail=str(exc)) from exc
+    try:
+        return {"result": answer_question(payload.question)}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
 @app.post("/api/quiz")
 async def quiz(payload: QuizRequest):
-    try: return generate_quiz(payload.topic, payload.num_questions)
-    except Exception as exc: raise HTTPException(status_code=500, detail=str(exc)) from exc
+    try:
+        return generate_quiz(payload.topic, payload.num_questions)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
 @app.post("/api/summary")
 async def summary(payload: SummaryRequest):
-    try: return {"result": summarize_text(payload.text, payload.length)}
-    except Exception as exc: raise HTTPException(status_code=500, detail=str(exc)) from exc
+    try:
+        return {"result": summarize_text(payload.text, payload.length)}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
 @app.post("/api/learning-path")
 async def learning_path(payload: LearningPathRequest):
-    try: return {"result": create_learning_path(payload.topic, payload.goal)}
-    except Exception as exc: raise HTTPException(status_code=500, detail=str(exc)) from exc
+    try:
+        return {"result": create_learning_path(payload.topic, payload.goal)}
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
