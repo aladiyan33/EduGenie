@@ -8,7 +8,7 @@ The implementation follows the supplied EduGenie project documentation:
 
 - FastAPI backend
 - HTML + CSS + JavaScript frontend
-- Gemini 1.5 Pro through the Gemini API
+- Gemini API using a currently supported Gemini model (default: Gemini 3.8 Flash)
 - LaMini-Flan-T5-783M for local concept explanation
 - Uvicorn ASGI server
 - Jinja2 templates
@@ -16,7 +16,7 @@ The implementation follows the supplied EduGenie project documentation:
 ## Features
 
 ### 1. Asking questions
-A student submits a question and EduGenie sends it to Gemini 1.5 Pro for a clear educational answer.
+A student submits a question and EduGenie sends it to the configured Gemini model for a clear educational answer.
 
 ### 2. Explanation of any topic
 The Explain feature uses MBZUAI/LaMini-Flan-T5-783M locally to produce a simple explanation.
@@ -36,7 +36,7 @@ Student input
 → HTML/CSS/JavaScript frontend
 → FastAPI endpoint
 → selected module
-→ Gemini 1.5 Pro or LaMini-Flan-T5-783M
+→ the configured Gemini model or LaMini-Flan-T5-783M
 → result
 → browser
 
@@ -75,7 +75,7 @@ Create the local environment file:
 Edit .env:
 
     GEMINI_API_KEY=your_api_key_here
-    GEMINI_MODEL=gemini-1.5-pro
+    GEMINI_MODEL=gemini-3.8-flash
 
 Run the application:
 
@@ -117,3 +117,7 @@ The tests mock AI generation where appropriate, so they do not require a live Ge
 - Documentation
 - Demo video
 - Working application screenshots
+
+## Model compatibility note
+
+The supplied project document specifies Gemini 1.5 Pro. Google shut down the Gemini 1.5 Pro API model on September 29, 2025, so it now returns 404 errors. The application therefore defaults to the currently supported `gemini-3.8-flash` model while keeping the same Gemini-powered functionality. The model can be changed through `GEMINI_MODEL` without changing application code.
