@@ -1,1 +1,85 @@
 :root{--bg:#08111f;--panel:rgba(15,27,46,.78);--text:#eef6ff;--muted:#9db0c8;--accent:#65d6ff;--accent2:#a98bff;--border:rgba(160,190,220,.16)}*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(circle at top,#102744 0,var(--bg) 45%,#050b14 100%);color:var(--text);overflow-x:hidden}.glow{position:fixed;width:420px;height:420px;border-radius:50%;filter:blur(100px);opacity:.18;pointer-events:none}.glow1{background:var(--accent);top:-180px;left:-120px}.glow2{background:var(--accent2);right:-150px;bottom:-180px}.app{width:min(1180px,92%);margin:auto;padding:56px 0 24px;position:relative}.hero{text-align:center;max-width:780px;margin:0 auto 36px}.badge{display:inline-block;padding:8px 12px;border:1px solid var(--border);border-radius:999px;color:var(--accent);font-size:12px;letter-spacing:.14em;background:rgba(255,255,255,.04)}h1{font-size:clamp(38px,7vw,72px);line-height:1;margin:18px 0;letter-spacing:-.05em}h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent}.hero p,.subtitle{color:var(--muted);line-height:1.7}.workspace{display:grid;grid-template-columns:260px 1fr;gap:18px;padding:18px;border:1px solid var(--border);background:rgba(8,17,31,.55);backdrop-filter:blur(18px);border-radius:26px;box-shadow:0 30px 80px rgba(0,0,0,.28)}.tasks,.panel{background:var(--panel);border:1px solid var(--border);border-radius:20px}.tasks{padding:20px}.tasks h2{margin:4px 4px 18px;font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.task{width:100%;padding:13px 14px;margin:5px 0;border:1px solid transparent;border-radius:12px;background:transparent;color:var(--muted);text-align:left;cursor:pointer;font:inherit;transition:.2s}.task:hover,.task.active{background:rgba(20,37,61,.7);border-color:var(--border);color:var(--text);transform:translateX(2px)}.panel{min-height:520px;padding:clamp(24px,5vw,46px)}.panel h2{margin:0 0 6px;font-size:30px}.formstack{margin-top:28px;display:grid;gap:14px}input,textarea,select{width:100%;padding:15px 16px;border-radius:13px;border:1px solid var(--border);background:rgba(5,12,23,.72);color:var(--text);outline:none;font:inherit}textarea{min-height:170px;resize:vertical}textarea.large{min-height:250px}input:focus,textarea:focus,select:focus{border-color:rgba(101,214,255,.55);box-shadow:0 0 0 4px rgba(101,214,255,.08)}.smalllabel{color:var(--muted);font-size:13px}.primary{padding:14px 18px;border:0;border-radius:13px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#06101d;font-weight:800;cursor:pointer}.primary:hover{filter:brightness(1.08);transform:translateY(-1px)}.status{margin-top:22px;color:var(--accent)}.hidden{display:none!important}.result{margin-top:26px;padding:22px;border-radius:16px;border:1px solid var(--border);background:rgba(3,10,20,.58);line-height:1.75}.result h3{margin-top:0}.answer{color:#dbe9f8}.error{color:#ffb7b7}.quizcard{padding:18px 0;border-top:1px solid var(--border)}.options{display:grid;gap:8px;margin:15px 0}.options div{padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.035)}details{color:var(--muted)}footer{display:flex;justify-content:space-between;color:#73859b;font-size:12px;padding:18px 4px}@media(max-width:800px){.workspace{grid-template-columns:1fr}.tasks{display:grid;grid-template-columns:1fr 1fr;gap:6px}.tasks h2{grid-column:1/-1}.task{margin:0}footer{flex-direction:column;gap:8px}}
+
+
+/* EduGenie animated background + motion layer */
+body::before,
+body::after{
+  content:"";
+  position:fixed;
+  inset:-20%;
+  pointer-events:none;
+  z-index:-1;
+}
+body::before{
+  background:
+    radial-gradient(circle at 15% 25%, rgba(101,214,255,.14) 0 2px, transparent 3px),
+    radial-gradient(circle at 75% 65%, rgba(169,139,255,.12) 0 2px, transparent 3px),
+    radial-gradient(circle at 45% 85%, rgba(101,214,255,.10) 0 1.5px, transparent 2.5px);
+  background-size:180px 180px,230px 230px,140px 140px;
+  animation:starDrift 24s linear infinite;
+}
+body::after{
+  background:
+    linear-gradient(115deg, transparent 0 46%, rgba(101,214,255,.035) 47%, transparent 48%),
+    linear-gradient(295deg, transparent 0 46%, rgba(169,139,255,.035) 47%, transparent 48%);
+  background-size:260px 260px;
+  animation:gridFlow 18s linear infinite;
+}
+.glow{
+  animation:floatGlow 10s ease-in-out infinite alternate;
+}
+.glow2{animation-delay:-5s}
+.hero{
+  animation:heroReveal .8s cubic-bezier(.2,.8,.2,1) both;
+}
+.workspace{
+  animation:workspaceReveal .9s .12s cubic-bezier(.2,.8,.2,1) both;
+}
+.task{
+  transition:background .25s ease,border-color .25s ease,color .25s ease,transform .25s ease,box-shadow .25s ease;
+}
+.task:hover,.task.active{
+  box-shadow:0 8px 28px rgba(101,214,255,.08);
+}
+.panel{
+  animation:panelPulse 8s ease-in-out infinite;
+}
+.primary{
+  transition:transform .25s ease,filter .25s ease,box-shadow .25s ease;
+  box-shadow:0 8px 28px rgba(101,214,255,.12);
+}
+.primary:hover{
+  box-shadow:0 12px 34px rgba(169,139,255,.18);
+}
+@keyframes starDrift{
+  from{transform:translate3d(0,0,0) rotate(0deg)}
+  to{transform:translate3d(-90px,70px,0) rotate(2deg)}
+}
+@keyframes gridFlow{
+  from{transform:translate3d(0,0,0)}
+  to{transform:translate3d(130px,-130px,0)}
+}
+@keyframes floatGlow{
+  0%{transform:translate3d(0,0,0) scale(1)}
+  50%{transform:translate3d(45px,35px,0) scale(1.08)}
+  100%{transform:translate3d(-30px,70px,0) scale(.96)}
+}
+@keyframes heroReveal{
+  from{opacity:0;transform:translateY(22px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes workspaceReveal{
+  from{opacity:0;transform:translateY(28px) scale(.985)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes panelPulse{
+  0%,100%{box-shadow:0 0 0 rgba(101,214,255,0)}
+  50%{box-shadow:0 0 45px rgba(101,214,255,.035)}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    scroll-behavior:auto!important;
+  }
+}
