@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduGenie — Learning Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+<div class="glow glow1"></div><div class="glow glow2"></div>
+<main class="app">
+<header class="hero"><div class="badge">AI • LEARN • PRACTICE</div><h1>Welcome to <span>EduGenie</span></h1><p>Your smart learning assistant for explanations, answers, quizzes, summaries, and personalized learning paths.</p></header>
+<section class="workspace">
+<aside class="tasks"><h2>Choose a task</h2><button class="task active" data-task="explain">💡 Explain</button><button class="task" data-task="qna">❓ Question & Answer</button><button class="task" data-task="quiz">🧠 Quiz</button><button class="task" data-task="summary">📝 Summary</button><button class="task" data-task="path">🗺️ Learning Path</button></aside>
+<section class="panel"><div id="formArea"></div><div id="status" class="status hidden"></div><div id="result" class="result hidden"></div></section>
+</section>
+<footer><span>EduGenie</span><span>FastAPI + Gemini + LaMini</span></footer>
+</main>
+<script>
+const formArea=document.getElementById('formArea'),result=document.getElementById('result'),status=document.getElementById('status');
+let currentTask='explain';
+const configs={
+explain:{title:'Explain a concept',subtitle:'Turn a difficult topic into a clear explanation.',html:'<input id="topic" placeholder="e.g. Photosynthesis"><select id="level"><option value="beginner">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select><button class="primary" onclick="submitTask()">Explain it →</button>'},
+qna:{title:'Ask EduGenie',subtitle:'Ask a question and get a focused educational answer.',html:'<textarea id="question" placeholder="e.g. Why does gradient descent work?"></textarea><button class="primary" onclick="submitTask()">Get answer →</button>'},
+quiz:{title:'Generate a quiz',subtitle:'Create multiple-choice practice questions on any topic.',html:'<input id="topic" placeholder="e.g. Linear Algebra"><label class="smalllabel">Number of questions<input id="num" type="number" min="1" max="15" value="5"></label><button class="primary" onclick="submitTask()">Generate quiz →</button>'},
+summary:{title:'Summarize study material',subtitle:'Paste a passage and keep only the important ideas.',html:'<textarea id="text" class="large" placeholder="Paste your study material here..."></textarea><select id="length"><option value="short">Short</option><option value="medium" selected>Medium</option><option value="long">Detailed</option></select><button class="primary" onclick="submitTask()">Summarize →</button>'},
+path:{title:'Build a learning path',subtitle:'Get a structured beginner-to-advanced route for your goal.',html:'<input id="topic" placeholder="e.g. Machine Learning"><input id="goal" placeholder="e.g. Prepare for GATE DA"><button class="primary" onclick="submitTask()">Build path →</button>'}
+};
+function renderTask(task){currentTask=task;result.classList.add('hidden');formArea.innerHTML='<h2>'+configs[task].title+'</h2><p class="subtitle">'+configs[task].subtitle+'</p><div class="formstack">'+configs[task].html+'</div>';}
+document.querySelectorAll('.task').forEach(function(btn){btn.addEventListener('click',function(){document.querySelectorAll('.task').forEach(function(b){b.classList.remove('active')});btn.classList.add('active');renderTask(btn.dataset.task);});});
+function escapeHtml(v){return String(v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]});}
+function formatText(v){return escapeHtml(v).replace(/\n/g,'<br>');}
+async function submitTask(){
+result.classList.add('hidden');let endpoint,body;
+if(currentTask==='explain'){endpoint='/api/explain';body={topic:document.getElementById('topic').value,level:document.getElementById('level').value};}
+else if(currentTask==='qna'){endpoint='/api/qna';body={question:document.getElementById('question').value};}
+else if(currentTask==='quiz'){endpoint='/api/quiz';body={topic:document.getElementById('topic').value,num_questions:Number(document.getElementById('num').value)};}
+else if(currentTask==='summary'){endpoint='/api/summary';body={text:document.getElementById('text').value,length:document.getElementById('length').value};}
+else{endpoint='/api/learning-path';body={topic:document.getElementById('topic').value,goal:document.getElementById('goal').value};}
+status.classList.remove('hidden');status.textContent='EduGenie is thinking…';
+try{const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const data=await response.json();if(!response.ok)throw new Error(data.detail||'Something went wrong.');result.classList.remove('hidden');
+if(currentTask==='quiz'){let html='<h3>'+escapeHtml(data.title)+'</h3>';data.questions.forEach(function(q,i){html+='<article class="quizcard"><strong>'+(i+1)+'. '+escapeHtml(q.question)+'</strong><div class="options">';q.options.forEach(function(o,j){html+='<div><b>'+['A','B','C','D'][j]+'.</b> '+escapeHtml(o)+'</div>';});html+='</div><details><summary>Show answer</summary><p><b>'+escapeHtml(q.answer)+'</b> — '+escapeHtml(q.explanation)+'</p></details></article>';});result.innerHTML=html;}
+else{result.innerHTML='<h3>EduGenie says</h3><div class="answer">'+formatText(data.result)+'</div>';}}
+catch(error){result.classList.remove('hidden');result.innerHTML='<h3>Something needs attention</h3><div class="error">'+escapeHtml(error.message)+'</div>';}finally{status.classList.add('hidden');}}
+renderTask('explain');
+</script>
+</body></html>
