@@ -1,98 +1,143 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
->>
+<< /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
+<< /Type /Pages /Kids [3 0 R 7 0 R] /Count 2 >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 8 0 R >>
 endobj
 4 0 obj
-<<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<<
-/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<<
-/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 9 0 R >>
 endobj
 7 0 obj
-<<
-/Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Length 2789 >>
+stream
+BT /F2 12 Tf 45 750 Td (SMARTBRIDGE / SKILL WALL) Tj ET
+BT /F2 16 Tf 222 725 Td (Solution Architecture) Tj ET
+0 0 0 RG 1 w 45 620 505 90 re S
+0 0 0 RG .8 w 180 620 m 180 710 l S
+0 0 0 RG .8 w 45 687 m 550 687 l S
+0 0 0 RG .8 w 45 664 m 550 664 l S
+0 0 0 RG .8 w 45 641 m 550 641 l S
+BT /F2 8 Tf 52 696 Td (Date) Tj ET
+BT /F1 8 Tf 190 696 Td (29 September 2026) Tj ET
+BT /F2 8 Tf 52 673 Td (Team ID) Tj ET
+BT /F1 8 Tf 190 673 Td (SWTID-2026-3580) Tj ET
+BT /F2 8 Tf 52 650 Td (Project Name) Tj ET
+BT /F1 8 Tf 190 650 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
+BT /F2 8 Tf 52 627 Td (Maximum Marks) Tj ET
+BT /F1 8 Tf 190 627 Td (5 Marks) Tj ET
+BT /F2 9 Tf 45 590 Td (Solution Architecture Diagram:) Tj ET
+BT /F1 7.5 Tf 45 574 Td (Fill the technologies and components directly inside the structural boxes.) Tj ET
+.86 .93 .97 rg 45 405 505 62 re f
+0 0 0 RG 1 w 45 405 505 62 re S
+BT /F2 10 Tf 229.5 443 Td (Presentation / Client Layer) Tj ET
+BT /F1 8 Tf 221 426 Td (Web Interface: HTML + CSS + JavaScript) Tj ET
+0 0 0 RG .8 w 297 405 m 297 385 l S
+0 0 0 RG .8 w 297 385 m 293 391 l S
+0 0 0 RG .8 w 297 385 m 301 391 l S
+1 .94 .78 rg 45 285 505 100 re f
+0 0 0 RG 1 w 45 285 505 100 re S
+BT /F2 10 Tf 222 357 Td (API Gateway / Request Handling) Tj ET
+BT /F1 8 Tf 265 338 Td (FastAPI REST API) Tj ET
+BT /F1 8 Tf 259 322 Td (Uvicorn ASGI Server) Tj ET
+BT /F1 8 Tf 223 306 Td (Validation + Routing + JSON Responses) Tj ET
+0 0 0 RG .8 w 297 285 m 297 255 l S
+0 0 0 RG .8 w 297 255 m 293 261 l S
+0 0 0 RG .8 w 297 255 m 301 261 l S
+.88 .95 .88 rg 45 160 160 95 re f
+0 0 0 RG 1 w 45 160 160 95 re S
+BT /F2 8.5 Tf 76.125 235 Td (Authentication / Config) Tj ET
+BT /F1 7 Tf 84.75 216 Td (No login in current MVP) Tj ET
+BT /F1 7 Tf 100.5 201 Td (GEMINI_API_KEY) Tj ET
+BT /F1 7 Tf 88.25 186 Td (Environment variables) Tj ET
+.88 .95 .88 rg 217.5 160 160 95 re f
+0 0 0 RG 1 w 217.5 160 160 95 re S
+BT /F2 8.5 Tf 259.25 235 Td (Core Logic Service) Tj ET
+BT /F1 7 Tf 262.5 216 Td (Q&A / Explain / Quiz) Tj ET
+BT /F1 7 Tf 253.75 201 Td (Summarize / Learning Path) Tj ET
+BT /F1 7 Tf 267.75 186 Td (Python AI modules) Tj ET
+.88 .95 .88 rg 390 160 160 95 re f
+0 0 0 RG 1 w 390 160 160 95 re S
+BT /F2 8.5 Tf 423.25 235 Td (AI / External Services) Tj ET
+BT /F1 7 Tf 440.25 216 Td (Google Gemini API) Tj ET
+BT /F1 7 Tf 428 201 Td (Gemini generated content) Tj ET
+BT /F1 7 Tf 438.5 186 Td (LaMini local model) Tj ET
+0 0 0 RG .8 w 297 160 m 297 130 l S
+0 0 0 RG .8 w 297 130 m 293 136 l S
+0 0 0 RG .8 w 297 130 m 301 136 l S
+.98 .88 .91 rg 45 65 505 65 re f
+0 0 0 RG 1 w 45 65 505 65 re S
+BT /F2 9.5 Tf 249.5 105 Td (Data / Storage Layer) Tj ET
+BT /F1 7.5 Tf 227.625 88 Td (No persistent database in current MVP) Tj ET
+BT /F1 7.5 Tf 212.625 75 Td (Local model files + application configuration) Tj ET
+endstream
 endobj
 8 0 obj
-<<
-/PageMode /UseNone /Pages 10 0 R /Type /Catalog
->>
-endobj
-9 0 obj
-<<
-/Author (anonymous) /CreationDate (D:20260929134902+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260929134902+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
->>
-endobj
-10 0 obj
-<<
-/Count 2 /Kids [ 6 0 R 7 0 R ] /Type /Pages
->>
-endobj
-11 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1689
->>
+<< /Length 1895 >>
 stream
-GauHKbBDVu&DcM"B%8rAK`E5\JD&&jWg.Up88U9A^_/1QiBmc?g!82n^kX1*Z;\:oEU8biM2T4*R6(KT'`YH7s(MgZ14cnN$lFcA/MKHn9SRLMGu]oH?su2>&\],q/Hk6gKJE[!,tq2r)Ws[l`d%c:2dO@uSX,PIY@6u>-?$=8UDf7-]o/gK-p\fV;?,\;jQ#1bnpCgs:`XR&JI!/^S-.0%7N1'0)b"F3,hfV[qK">1_PdBP\;d9e@k*.MY9,Ff(#6LF]J3;_&>=h,"D;/%K,b[:n[#U:oC%lh*'XoZa'jg_qRb!+fA/.;D2,%RL@NP"\*hZ#4V8"pGUJ(sCpnFtarSg6B;T^`R>\Oa].@fF@i]O2_d/.k[il#mS;B*P%*f>@URaUJ1`;hVr;+),rHP7Q5%"uab2o6Md,;T/%sLR&EB^EUD&1lME1,n\`58?Fj",qcr6@>bK:t.TMmGG9M]scGPEc@k/%)Mr)O^I^X\ouRpSBk!g($O=TDlO:P2S2g$>6W34-RB?`$c-GFN;6JSlmbOM!'\&@TPI=<ErKM_8KJ;>M-#6os4BFFT29I!4-5>J]Ybq;7an7ilmnihA1'?PPjjR?/$.%d:@20cB]g&OK_rUVbf#Da=T07:!p6TLZ9Yr[s)i&W8B4sf]a,D4,n1=.A.iB/5Ph^N9g<Xdl^pu);8DYD<]D4+tc<;(D0O4jbM35"Y'KbU+W]@E`/gIOH#EVgagLg)k=^/O:4Z&GpMl/Qje,i8m*aZZmKmen-\Rm5bV,YqmRRC(/C&1T3u=RXS\=1i#+ja7#AD+gZ`-2fc0-.QZ.BFqd_NGL=>\f)#c3>1S21&=^JjtCX*ZRbA((]f;6S3/$6E@e*VgaobuZKE%Oq*0&.8F4HdYGV?lJbI![$Nq>BHF93$W566/Ah@c&I,`2(CBk5"A$6-!b"&h5I7Ddg\"J-kn9d@*V-8V-n>Ci/oL/d$er%A@G[7fB@g>b\geR0TO.R%"t`R)EA@+3(.SKOPf+FATk]R%j6"^VO9XGac7GiQg,+.U/.A1.aU/j6%7aNWObgq?4UL_?;8</FY+)dJldP+Oj2`P\>X(M,2X:s7h%/CG)'7D-MjYH>8"Mr":lqitnBi;\Gg!`\nu*Je14&,Zm3NMreRcQuPkh`$>Ju&ZgG8.Q"RDg"7`Y!@SS*/5=VXDJ;?;+Vb-eaoD)q<!=%YY?Vt'n$I,\Vr[(1X8U2_W'G%O)NU?^BM71uqga1>&eJql?*?LnIfb0mU)A,W*"/9,+?!G4GV(#[7@s0aH&9k.7.Xt`E,:tl//::3KVSRu<1N*,3^hk"?UtHh'Zp$(/Kl3bl,,AW$;PY9>]f0)r=X1]&a9)1LFW;7hm'[o/0\k=``8HG(Ot80],'*N;_FXA;%e:%2saf"Zp9*@Bg/R1>PnJ9;!39]21fQeYR#ErSDRg&aflNLdcJXZ2C[Jn45J5,#SI.a8k,;/H/.U,qL1@14Q/i12f,RPp&$[k%7(M#!&-j+$H"_3C[R_3js%4dChH*gd8f&15sJ.HUR#3QX!>W>DV?0S1-2-<%nr@#9h,om8%-uKVOC7Nl7QO64+[63MnKj@_XKci:T<ghMPh<=*K(>,c#K.51Uf%$FPoRsZrnCY*VfUAF@+G6(V*X&Wo/Z,frk)La2]@+[m!!_?p$3l(lc,D&_T7>1#YT"Ke=^,rgZ)JH0Ar&BH=30&)"P_@Mr6+@#M&1&8\j%WK'Kg.k5O5@4<J_D4"?lh5^SU>1OEp$.!!J3L-DW?q,5']MbLl9oP?`e]1:W8n6uOajkb=kDR:Z^69"/R-6M!);"nE1*PeM2Ih&S#rCZ?5b9Y^kCR5`7WQAp%Z*%(7Nr!(,>jAF92itk(ljdYXJsVLCe2i,1dkJ<"s?@:5;bK9I3ccoiVFmT.B@-;51W-.l=$F<V`!u`;&)-)!'`@m'p9X^9b:&`,#'bJX>G(-L'<iuIor$o4fa9+l_?mVF"O%c<!#?F9H0;O/B-n=el(eMGkL7EQaY\I=R5W4OonX%:LD*-5!j&n&>$V0Ei<)03tsJ=oVrE6X]S5,7/:Epj\rQ&I$f`t59;$fk2f*$$iHlmi8&IU[HX1/BqC<+LtPG4(GI!g`_G%^n]Q"SoWc?i2$+9GB?d"QT^&6oo#YK?>Q':&WRgMDk6L/I#9iQ&\Tm=/1eY]eHB9hd2'd'u?r2Z\c7*@OPB]SgkD/IqV"<W'ST#XT;/cq[>n\lrCTO?%UcMK%Bnla!h+,9sF(SVdej>a1K!Gu`o.`&Wb)!'?I+Fmo;DN"1iS3r!YoNll9gqoUSllsP,!,+Ed>*JmnV,#aRIE33]ZGq@%,\N'on$-G>M,Y_P-!jd;hjFKQ.)\FP\]4&\&As16ie*#;Q3/nr@PUNg^uui5V>qC.?&/5T9?M(g\SKl)!sR6I7HeGCnPl0*/\C.kZ&]S7_FJugmG%Ais+?5R/N"-F)lsa&&2PP)(+;rMZ'USLC+P=jse:6'MWr3L?S%*%+eUfe`#O[A8+`K%uP0<q:glQR-$D`ck;s@E.1)>ZIT7*[la+nSZQN1_DnEZ/r-8OleDnr%h*f%qhR%-,u*&*96_qrQ?1RC'+H$Y[d^Ja@#YG;>F9OC\+?FFc:ooUgL/[9c1"K^mXYW%(;*!Kh4\1JM2akJP[_tqD%uH/n%7?GP;V/:#Tsd[#CWE\J98ao+KD"aL3o,<HGY*L/hEOj#;QqE.f~>endstream
+BT /F2 12 Tf 45 750 Td (SMARTBRIDGE / SKILL WALL) Tj ET
+BT /F2 15 Tf 45 720 Td (Component Description Table) Tj ET
+.90 .92 .95 rg 45 660 505 35 re f
+0 0 0 RG 1 w 45 660 505 35 re S
+0 0 0 RG .8 w 190 660 m 190 695 l S
+0 0 0 RG .8 w 445 660 m 445 695 l S
+BT /F2 7.5 Tf 52 673 Td (Component Name) Tj ET
+BT /F2 7.5 Tf 200 673 Td (Description / Role in Architecture) Tj ET
+BT /F2 7.5 Tf 452 673 Td (Technologies) Tj ET
+0 0 0 RG 1 w 45 590 505 70 re S
+0 0 0 RG .8 w 190 590 m 190 660 l S
+0 0 0 RG .8 w 445 590 m 445 660 l S
+BT /F2 7 Tf 52 637 Td (Presentation Layer) Tj ET
+BT /F1 6.8 Tf 200 637 Td (Student interface for learning requests and generated results.) Tj ET
+BT /F1 6.8 Tf 452 637 Td (HTML, CSS, JS) Tj ET
+0 0 0 RG 1 w 45 520 505 70 re S
+0 0 0 RG .8 w 190 520 m 190 590 l S
+0 0 0 RG .8 w 445 520 m 445 590 l S
+BT /F2 7 Tf 52 567 Td (API Gateway) Tj ET
+BT /F1 6.8 Tf 200 567 Td (Receives, validates and routes requests; returns JSON responses.) Tj ET
+BT /F1 6.8 Tf 452 567 Td (FastAPI, Uvicorn) Tj ET
+0 0 0 RG 1 w 45 450 505 70 re S
+0 0 0 RG .8 w 190 450 m 190 520 l S
+0 0 0 RG .8 w 445 450 m 445 520 l S
+BT /F2 7 Tf 52 497 Td (Core Logic Service) Tj ET
+BT /F1 6.8 Tf 200 497 Td (Coordinates Q&A, explanation, quiz, summary and learning path.) Tj ET
+BT /F1 6.8 Tf 452 497 Td (Python modules) Tj ET
+0 0 0 RG 1 w 45 380 505 70 re S
+0 0 0 RG .8 w 190 380 m 190 450 l S
+0 0 0 RG .8 w 445 380 m 445 450 l S
+BT /F2 7 Tf 52 427 Td (AI / External Services) Tj ET
+BT /F1 6.8 Tf 200 427 Td (Generates AI responses and learning content.) Tj ET
+BT /F1 6.8 Tf 452 427 Td (Gemini API, LaMini) Tj ET
+0 0 0 RG 1 w 45 310 505 70 re S
+0 0 0 RG .8 w 190 310 m 190 380 l S
+0 0 0 RG .8 w 445 310 m 445 380 l S
+BT /F2 7 Tf 52 357 Td (Data / Storage) Tj ET
+BT /F1 6.8 Tf 200 357 Td (No persistent database in current MVP; local model/config files are used.) Tj ET
+BT /F1 6.8 Tf 452 357 Td (Local files, .env) Tj ET
+endstream
 endobj
 xref
-0 13
+0 10
 0000000000 65535 f 
-0000000061 00000 n 
-0000000122 00000 n 
-0000000229 00000 n 
-0000000341 00000 n 
-0000000456 00000 n 
-0000000533 00000 n 
-0000000728 00000 n 
-0000000923 00000 n 
-00000000992 00000 n 
-00000001253 00000 n 
-00000001319 00000 n 
-0000003100 00000 n 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000327 00000 n 
+0000000402 00000 n 
+0000000538 00000 n 
+0000003378 00000 n 
 trailer
-<<
-/ID 
-[<da37afc76b9581e93567bc587c1bf989><da37afc76b9581e93567bc587c1bf989>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 9 0 R
-/Root 8 0 R
-/Size 13
->>
+<< /Size 10 /Root 1 0 R >>
 startxref
-4671
+5324
 %%EOF
