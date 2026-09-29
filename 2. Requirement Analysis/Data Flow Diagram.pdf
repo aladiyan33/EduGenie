@@ -30,44 +30,64 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 2366 >>
+<< /Length 3881 >>
 stream
-BT /F1 14 Tf 220 780 Td (EduGenie Data Flow Diagram) Tj ET
-BT /F1 8 Tf 72 748 Td (Student requests enter through the web interface, are handled by FastAPI, processed by the relevant AI module,) Tj 0 -12 Td (and return the generated learning result to the student.) Tj ET
-0.86 0.92 0.96 rg
-72 560 95 45 re f
-190 545 145 75 re f
-190 420 145 75 re f
-190 295 145 75 re f
-385 435 120 40 re f
-385 320 120 40 re f
-0.80 0.90 0.95 rg
-450 565 90 45 re f
-450 210 90 45 re f
-0 0 0 rg
-BT /F1 8 Tf 95 582 Td (Student) Tj ET
-BT /F1 7 Tf 197 598 Td (1  Request Handling) Tj 0 -35 Td (Validate input and route task) Tj ET
-BT /F1 7 Tf 197 473 Td (2  AI Processing) Tj 0 -35 Td (Generate learning response) Tj ET
-BT /F1 7 Tf 197 348 Td (3  Result Formatting) Tj 0 -35 Td (Prepare result for web UI) Tj ET
-BT /F1 7 Tf 398 458 Td (Learning Request / Result) Tj ET
-BT /F1 7 Tf 400 343 Td (Learning History) Tj ET
-BT /F1 8 Tf 470 588 Td (Gemini API) Tj ET
-BT /F1 8 Tf 462 233 Td (Local Model) Tj ET
-BT /F1 7 Tf 72 170 Td (Data flows:) Tj 0 -13 Td (Student -> Request Handling -> AI Processing -> Result Formatting -> Student) Tj 0 -13 Td (AI Processing exchanges prompts and responses with Gemini API and explanation requests with the local model.) Tj 0 -13 Td (Learning Request / Result and Learning History represent application data stores.) Tj ET
-0 0 0 RG 1 w
-120 582 m 190 582 l S 185 586 m 190 582 l 185 578 l S
-262 545 m 262 510 l S 258 515 m 262 510 l 266 515 l S
-335 458 m 385 458 l S 380 462 m 385 458 l 380 454 l S
-445 475 m 335 475 l S 340 479 m 335 475 l 340 471 l S
-335 455 m 450 587 l S 444 583 m 450 587 l 449 580 l S
-450 587 m 335 455 l S 341 459 m 335 455 l 336 462 l S
-262 420 m 262 370 l S 258 375 m 262 370 l 266 375 l S
-335 333 m 385 340 l S 380 343 m 385 340 l 380 337 l S
-445 320 m 335 333 l S 340 337 m 335 333 l 341 329 l S
-335 445 m 450 233 l S 447 240 m 450 233 l 443 236 l S
-450 233 m 335 333 l S 341 329 m 335 333 l 342 335 l S
-335 333 m 120 582 l S 124 574 m 120 582 l 128 579 l S
-BT /F1 6 Tf 145 590 Td (question / topic) Tj 0 -35 Td (validated request) Tj 0 -32 Td (request / result) Tj 105 5 Td (context) Tj -5 -55 Td (prompt) Tj 100 -15 Td (AI response) Tj -210 -50 Td (generated result) Tj 105 -5 Td (result record) Tj 105 5 Td (history) Tj -105 -70 Td (explanation request) Tj 20 50 Td (explanation) Tj -210 35 Td (answer / quiz / summary / path) Tj ET
+BT /F1 14 Tf 205 735 Td (EduGenie Data Flow Diagram) Tj ET
+BT /F1 8 Tf 72 708 Td (Student input is received by FastAPI, routed to the required AI module, and returned to the web interface.) Tj ET
+0.90 0.95 0.99 rg 0.45 0.65 0.79 RG 1 w 138 500 m 138 511.045696 116.5096704 520 90 520 c 63.490329599999995 520 42 511.045696 42 500 c 42 488.954304 63.490329599999995 480 90 480 c 116.5096704 480 138 488.954304 138 500 c B
+BT /F1 8 Tf 60 497 Td (Student) Tj ET
+0.84 0.91 0.97 rg 155 470 125 58 re f
+0.25 0.47 0.72 rg 155 510 125 18 re f
+BT /F1 8 Tf 162 514 Td (1  Request Handling) Tj ET
+BT /F1 7 Tf 167 488 Td (Validate request) Tj ET
+0.84 0.91 0.97 rg 300 470 125 58 re f
+0.25 0.47 0.72 rg 300 510 125 18 re f
+BT /F1 8 Tf 307 514 Td (2  AI Processing) Tj ET
+BT /F1 7 Tf 312 488 Td (Generate learning content) Tj ET
+0.84 0.91 0.97 rg 445 470 125 58 re f
+0.25 0.47 0.72 rg 445 510 125 18 re f
+BT /F1 8 Tf 452 514 Td (3  Result Delivery) Tj ET
+BT /F1 7 Tf 457 488 Td (Format response) Tj ET
+0.90 0.95 0.99 rg 0.45 0.65 0.79 RG 1 w 414 610 m 414 621.045696 390.7188096 630 362 630 c 333.2811904 630 310 621.045696 310 610 c 310 598.954304 333.2811904 590 362 590 c 390.7188096 590 414 598.954304 414 610 c B
+BT /F1 8 Tf 328 607 Td (Gemini API) Tj ET
+0.90 0.95 0.99 rg 0.45 0.65 0.79 RG 1 w 414 330 m 414 341.045696 390.7188096 350 362 350 c 333.2811904 350 310 341.045696 310 330 c 310 318.954304 333.2811904 310 362 310 c 390.7188096 310 414 318.954304 414 330 c B
+BT /F1 8 Tf 328 327 Td (Local Model) Tj ET
+0.35 0.58 0.77 rg 300 190 125 42 re f
+BT /F1 8 Tf 318 208 Td (Learning History) Tj ET
+0 0 0 RG 0.9 w 138 500 m 155 500 l S
+0 0 0 RG 155 500 m 149.00177872641737 503.60850960275025 l S 155 500 m 149.00177872641737 496.39149039724975 l S
+BT /F1 6.5 Tf 132 515 Td (learning request) Tj ET
+0 0 0 RG 0.9 w 280 500 m 300 500 l S
+0 0 0 RG 300 500 m 294.00177872641734 503.60850960275025 l S 300 500 m 294.00177872641734 496.39149039724975 l S
+BT /F1 6.5 Tf 250 515 Td (validated request) Tj ET
+0 0 0 RG 0.9 w 425 500 m 445 500 l S
+0 0 0 RG 445 500 m 439.00177872641734 503.60850960275025 l S 445 500 m 439.00177872641734 496.39149039724975 l S
+BT /F1 6.5 Tf 390 515 Td (generated result) Tj ET
+0 0 0 RG 0.9 w 362 528 m 362 590 l S
+0 0 0 RG 362 590 m 358.39149039724975 584.0017787264173 l S 362 590 m 365.60850960275025 584.0017787264173 l S
+BT /F1 6.5 Tf 370 555 Td (prompt) Tj ET
+0 0 0 RG 0.9 w 362 590 m 362 528 l S
+0 0 0 RG 362 528 m 365.60850960275025 533.9982212735827 l S 362 528 m 358.39149039724975 533.9982212735827 l S
+BT /F1 6.5 Tf 370 570 Td (AI response) Tj ET
+0 0 0 RG 0.9 w 362 470 m 362 350 l S
+0 0 0 RG 362 350 m 365.60850960275025 355.99822127358266 l S 362 350 m 358.39149039724975 355.9982212735826 l S
+BT /F1 6.5 Tf 370 410 Td (explanation) Tj ET
+0 0 0 RG 0.9 w 362 350 m 362 470 l S
+0 0 0 RG 362 470 m 358.39149039724975 464.0017787264174 l S 362 470 m 365.60850960275025 464.00177872641734 l S
+BT /F1 6.5 Tf 370 390 Td (explanation result) Tj ET
+0 0 0 RG 0.9 w 507 420 m 90 420 l S
+0 0 0 RG 0.9 w 90 420 m 90 480 l S
+0 0 0 RG 90 480 m 86 473 l 94 473 l S
+BT /F1 6.5 Tf 255 408 Td (answer / quiz / summary) Tj ET
+0 0 0 RG 0.9 w 362 470 m 362 232 l S
+0 0 0 RG 362 232 m 365.60850960275025 237.99822127358263 l S 362 232 m 358.39149039724975 237.99822127358263 l S
+BT /F1 6.5 Tf 370 350 Td (learning data) Tj ET
+0 0 0 RG 0.9 w 362 232 m 362 470 l S
+0 0 0 RG 362 470 m 358.39149039724975 464.0017787264174 l S 362 470 m 365.60850960275025 464.00177872641734 l S
+BT /F1 6.5 Tf 370 300 Td (learning context) Tj ET
+BT /F1 7 Tf 72 110 Td (Flow: Student -> Request Handling -> AI Processing -> Result Delivery -> Student) Tj ET
+BT /F1 7 Tf 72 92 Td (Gemini API handles generative learning tasks; the local model supports concept explanation.) Tj ET
+BT /F1 7 Tf 72 74 Td (Learning History stores application context used to support subsequent learning requests.) Tj ET
 endstream
 endobj
 7 0 obj
@@ -82,9 +102,9 @@ xref
 0000000247 00000 n 
 0000001901 00000 n 
 0000002027 00000 n 
-0000004445 00000 n 
+0000005959 00000 n 
 trailer
 << /Size 8 /Root 1 0 R >>
 startxref
-4515
+6029
 %%EOF
