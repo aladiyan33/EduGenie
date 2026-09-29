@@ -1,7 +1,6 @@
 EDUGENIE — SAMPLE PROJECT DOCUMENTATION
 
-Title
-EduGenie: Google Gemini Powered Learning Assistant
+Title: EduGenie: Google Gemini Powered Learning Assistant
 
 Objective
 Provide an integrated assistant for student questions, explanations, summaries, quizzes and learning recommendations.
