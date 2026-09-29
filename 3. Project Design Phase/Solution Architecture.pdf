@@ -1,134 +1,98 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R 7 0 R] /Count 2 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 8 0 R >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
+>>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+<<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 9 0 R >>
+<<
+/Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 8 0 obj
-<< /Length 2773 >>
-stream
-BT /F2 13 Tf 72 755 Td (SMARTBRIDGE / SKILL WALL) Tj ET
-BT /F2 16 Tf 218.64 730 Td (Solution Architecture) Tj ET
-0 0 0 RG 0.8 w 65 628 482 88 re S
-0 0 0 RG 0.8 w 205 628 m 205 716 l S
-0 0 0 RG 0.8 w 65 694 m 547 694 l S
-0 0 0 RG 0.8 w 65 672 m 547 672 l S
-0 0 0 RG 0.8 w 65 650 m 547 650 l S
-BT /F2 8 Tf 72 703 Td (Date) Tj ET
-BT /F1 8 Tf 220 703 Td (29 September 2026) Tj ET
-BT /F2 8 Tf 72 681 Td (Team ID) Tj ET
-BT /F1 8 Tf 220 681 Td (SWTID-2026-3580) Tj ET
-BT /F2 8 Tf 72 659 Td (Project Name) Tj ET
-BT /F1 8 Tf 220 659 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
-BT /F2 8 Tf 72 637 Td (Maximum Marks) Tj ET
-BT /F1 8 Tf 220 637 Td (5 Marks) Tj ET
-BT /F2 8.5 Tf 65 603 Td (Solution Architecture Diagram:) Tj ET
-BT /F1 7 Tf 65 588 Td (Provide a high-level visual representation of the solution architecture. Fill the specific technologies) Tj ET
-BT /F1 7 Tf 65 576 Td (and components directly into the structural boxes.) Tj ET
-0.82 0.93 0.95 rg 65 405 482 53 re f
-0 0 0 RG 0.8 w 65 405 482 53 re S
-BT /F2 9 Tf 242.82 435 Td (Presentation / Client Layer) Tj ET
-BT /F3 7.5 Tf 245.55 418 Td (Web App: HTML, CSS & JavaScript) Tj ET
-0 0 0 RG 1 w 306 405 m 306 382 l S 302 388 m 306 382 l 310 388 l S
-1 0.94 0.72 rg 65 269 482 93 re f
-0 0 0 RG 0.8 w 65 269 482 93 re S
-BT /F2 9 Tf 242.82 338 Td (API Gateway / Load Balancer) Tj ET
-BT /F3 7.5 Tf 212.39999999999998 319 Td (FastAPI + Uvicorn â€” request routing & validation) Tj ET
-0 0 0 RG 1 w 306 269 m 306 253 l S 302 259 m 306 253 l 310 259 l S
-0.84 0.93 0.85 rg 65 190 160 63 re f
-0 0 0 RG 0.8 w 65 190 160 63 re S
-BT /F2 8.5 Tf 118.48 236 Td (Auth Service) Tj ET
-BT /F3 6.6 Tf 95.236 219 Td (No user authentication in MVP) Tj ET
-BT /F3 6.6 Tf 100.384 208 Td (Server-side GEMINI_API_KEY) Tj ET
-BT /F3 6.6 Tf 110.68 197 Td (.env + python-dotenv) Tj ET
-0.84 0.93 0.85 rg 225 190 160 63 re f
-0 0 0 RG 0.8 w 225 190 160 63 re S
-BT /F2 8.5 Tf 265.22 236 Td (Core Logic Service) Tj ET
-BT /F3 6.6 Tf 270.68 219 Td (Q&A â€¢ Explain â€¢ Quiz) Tj ET
-BT /F3 6.6 Tf 262.1 208 Td (Summarize â€¢ Learning Path) Tj ET
-BT /F3 6.6 Tf 275.828 197 Td (Python AI modules) Tj ET
-0.84 0.93 0.85 rg 385 190 160 63 re f
-0 0 0 RG 0.8 w 385 190 160 63 re S
-BT /F2 8.5 Tf 409.75 236 Td (External API Integrations) Tj ET
-BT /F3 6.6 Tf 435.828 219 Td (Google Gemini API) Tj ET
-BT /F3 6.6 Tf 430.68 208 Td (Q&A â€¢ Quiz â€¢ Summary) Tj ET
-BT /F3 6.6 Tf 423.81600000000003 197 Td (Learning recommendations) Tj ET
-0 0 0 RG 1 w 306 190 m 306 166 l S 302 172 m 306 166 l 310 172 l S
-0.97 0.84 0.86 rg 65 96 482 53 re f
-0 0 0 RG 0.8 w 65 96 482 53 re S
-BT /F2 8.5 Tf 261.8 126 Td (Data / Storage Layer) Tj ET
-BT /F3 6.8 Tf 240.584 109 Td (No persistent database in current MVP) Tj ET
-BT /F3 6.8 Tf 249.424 98 Td (Local model: LaMini-Flan-T5-783M) Tj ET
-endstream
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
 endobj
 9 0 obj
-<< /Length 1657 >>
+<<
+/Author (anonymous) /CreationDate (D:20260929134902+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260929134902+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 2 /Kids [ 6 0 R 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1689
+>>
 stream
-BT /F2 13 Tf 72 755 Td (SMARTBRIDGE / SKILL WALL) Tj ET
-BT /F2 15 Tf 72 730 Td (Component Description Table) Tj ET
-0.9 0.92 0.94 rg 65 625 482 31 re f
-0 0 0 RG 0.8 w 65 625 482 31 re S
-0 0 0 RG 0.8 w 215 625 m 215 656 l S
-0 0 0 RG 0.8 w 475 625 m 475 656 l S
-BT /F2 7.5 Tf 72 638 Td (Component Name) Tj ET
-BT /F2 7.5 Tf 220 638 Td (Description / Role in Architecture) Tj ET
-BT /F2 7.5 Tf 485 638 Td (Technologies Used) Tj ET
-0 0 0 RG 0.8 w 65 570 482 55 re S
-0 0 0 RG 0.8 w 215 570 m 215 625 l S
-0 0 0 RG 0.8 w 475 570 m 475 625 l S
-BT /F2 6.5 Tf 72 602 Td (Presentation Layer) Tj ET
-BT /F1 6 Tf 220 602 Td (Student-facing interface for learning tasks and generated results.) Tj ET
-BT /F1 5.8 Tf 485 602 Td (HTML, CSS, JS) Tj ET
-0 0 0 RG 0.8 w 65 515 482 55 re S
-0 0 0 RG 0.8 w 215 515 m 215 570 l S
-0 0 0 RG 0.8 w 475 515 m 475 570 l S
-BT /F2 6.5 Tf 72 547 Td (API Gateway) Tj ET
-BT /F1 6 Tf 220 547 Td (Receives, validates, routes requests and returns responses.) Tj ET
-BT /F1 5.8 Tf 485 547 Td (FastAPI, Uvicorn) Tj ET
-0 0 0 RG 0.8 w 65 460 482 55 re S
-0 0 0 RG 0.8 w 215 460 m 215 515 l S
-0 0 0 RG 0.8 w 475 460 m 475 515 l S
-BT /F2 6.5 Tf 72 492 Td (Core Logic Service) Tj ET
-BT /F1 6 Tf 220 492 Td (Coordinates Q&A, explanation, quiz, summary and learning path.) Tj ET
-BT /F1 5.8 Tf 485 492 Td (Python modules, Gemini, LaMini) Tj ET
-0 0 0 RG 0.8 w 65 405 482 55 re S
-0 0 0 RG 0.8 w 215 405 m 215 460 l S
-0 0 0 RG 0.8 w 475 405 m 475 460 l S
-BT /F2 6.5 Tf 72 437 Td (Data / Storage) Tj ET
-BT /F1 6 Tf 220 437 Td (MVP has no persistent database; local model/application files are used.) Tj ET
-BT /F1 5.8 Tf 485 437 Td (Local storage, model files) Tj ET
-endstream
+GauHKbBDVu&DcM"B%8rAK`E5\JD&&jWg.Up88U9A^_/1QiBmc?g!82n^kX1*Z;\:oEU8biM2T4*R6(KT'`YH7s(MgZ14cnN$lFcA/MKHn9SRLMGu]oH?su2>&\],q/Hk6gKJE[!,tq2r)Ws[l`d%c:2dO@uSX,PIY@6u>-?$=8UDf7-]o/gK-p\fV;?,\;jQ#1bnpCgs:`XR&JI!/^S-.0%7N1'0)b"F3,hfV[qK">1_PdBP\;d9e@k*.MY9,Ff(#6LF]J3;_&>=h,"D;/%K,b[:n[#U:oC%lh*'XoZa'jg_qRb!+fA/.;D2,%RL@NP"\*hZ#4V8"pGUJ(sCpnFtarSg6B;T^`R>\Oa].@fF@i]O2_d/.k[il#mS;B*P%*f>@URaUJ1`;hVr;+),rHP7Q5%"uab2o6Md,;T/%sLR&EB^EUD&1lME1,n\`58?Fj",qcr6@>bK:t.TMmGG9M]scGPEc@k/%)Mr)O^I^X\ouRpSBk!g($O=TDlO:P2S2g$>6W34-RB?`$c-GFN;6JSlmbOM!'\&@TPI=<ErKM_8KJ;>M-#6os4BFFT29I!4-5>J]Ybq;7an7ilmnihA1'?PPjjR?/$.%d:@20cB]g&OK_rUVbf#Da=T07:!p6TLZ9Yr[s)i&W8B4sf]a,D4,n1=.A.iB/5Ph^N9g<Xdl^pu);8DYD<]D4+tc<;(D0O4jbM35"Y'KbU+W]@E`/gIOH#EVgagLg)k=^/O:4Z&GpMl/Qje,i8m*aZZmKmen-\Rm5bV,YqmRRC(/C&1T3u=RXS\=1i#+ja7#AD+gZ`-2fc0-.QZ.BFqd_NGL=>\f)#c3>1S21&=^JjtCX*ZRbA((]f;6S3/$6E@e*VgaobuZKE%Oq*0&.8F4HdYGV?lJbI![$Nq>BHF93$W566/Ah@c&I,`2(CBk5"A$6-!b"&h5I7Ddg\"J-kn9d@*V-8V-n>Ci/oL/d$er%A@G[7fB@g>b\geR0TO/B-n=el(eMGkL7EQaY\I=R5W4OonX%:LD*-5!j&n&>$V0Ei<)03tsJ=oVrE6X]S5,7/:Epj\rQ&I$f`t59;$fk2f*$$iHlmi8&IU[HX1/BqC<+LtPG4(GI!g`_G%^n]Q"SoWc?i2$+9GB?d"QT^&6oo#YK?>Q':&WRgMDk6L/I#9+5fR4^dl"1>>1N1$FPoRsZrnCY*VfUAF@+G6(V*X&Wo/Z,frk)La2]@+[m!!_?p$3l(lc,D&_T7>1#YT"Ke=^,rgZ)JH0Ar&BH=30&)"P_@Mr6+@#M&1&8\j%WK'Kg.k5O5@4<J_D4"?lh5^SU>1OEp$.!!J3L-DW?q,5']MbLl9oP?`e]1:W8n6uOajkb=kDR:LD*-5!j&n&>$V0Ei<)03tsJ=oVrE6X]S5,7/:Epj\rQ&I$f`t59;$fk2f*$$iHlmi8&IU[HX1/BqC<+LtPG4(GI!g`_G%^n]Q"SoWc?i2$+9GB?d"QT^&6oo#YK?>Q':&WRgMDk6L/I#9+5fR4^dl"1>>1N1$FPoRsZrnCY*VfUAF@+G6(V*X&Wo/Z,frk)La2]@+[m!!_?p$3l(lc,D&_T7>1#YT"Ke=^,rgZ)JH0Ar&BH=30&)"P_@Mr6+@#M&1&8\j%WK'Kg.k5O5@4<J_D4"?lh5^SU>1OEp$.!!J3L-DW?q,5']MbLl9oP?`e]1:W8n6uOajkb=kDR:/27chf7bqk20CFusaaGCnPl0*/\C.kZ&]S7_FJugmG%Ais+?5R/N"-F)lsa&&2PP)(+;rMZ'USLC+P=jse:6'MWr3L?S%*%+eUfe`#O[A8+`K%uP0<q:glQR-$D`ck;s@E.1)>ZIT7*[la+nSZQN1_DnEZ/r-8OleDnr%h*f%qhR%-,u*&*96_qrQ?1RC'+H$Y[d^Ja@#YG;>F9OC\+?FFc:ooUgL/[9c1"K^mXYW%(;*!Kh4\1JM2akJP[_tqD%uH/n%7?GP;V/:#Tsd[#CWE\J98ao+KD"aL3o,<HGY*L/hEOj#;QqE.f~>endstream
 endobj
 xref
-0 10
+0 13
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000121 00000 n 
-0000000267 00000 n 
-0000000337 00000 n 
-0000000412 00000 n 
-0000000490 00000 n 
-0000000636 00000 n 
-0000003460 00000 n 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000456 00000 n 
+0000000533 00000 n 
+0000000728 00000 n 
+0000000923 00000 n 
+00000000992 00000 n 
+00000001253 00000 n 
+00000001319 00000 n 
+0000003100 00000 n 
 trailer
-<< /Size 10 /Root 1 0 R >>
+<<
+/ID 
+[<da37afc76b9581e93567bc587c1bf989><da37afc76b9581e93567bc587c1bf989>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 13
+>>
 startxref
-5168
+4671
 %%EOF
