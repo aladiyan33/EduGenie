@@ -13,8 +13,5 @@ Module-level validation and JSON parsing.
 Performance considerations
 Gemini latency depends on network/provider response time. The local explanation model has initial load cost and can reuse the cached model in later requests within the environment.
 
-Operational practices
-Focused prompts, output validation, environment-based model configuration and separation of AI calls from routing help isolate performance concerns.
-
 Run
 pytest -q
