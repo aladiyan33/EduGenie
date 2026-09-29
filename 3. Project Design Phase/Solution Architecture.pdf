@@ -6,7 +6,7 @@ endobj
 << /Type /Pages /Kids [3 0 R 7 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 8 0 R >>
 endobj
 4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -15,135 +15,120 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 2774 >>
-stream
-BT /F2 14 Tf 198 758 Td (Solution Architecture) Tj ET
-BT /F1 7.5 Tf 72 740 Td (SMARTBRIDGE / SKILL WALL) Tj ET
-BT /F2 7.2 Tf 72 721 Td (Date: 29 September 2026) Tj ET
-BT /F2 7.2 Tf 72 707 Td (Team ID: SWTID-2026-3580) Tj ET
-BT /F1 7.2 Tf 72 693 Td (Project Name: EduGenie: Google Gemini Powered Learning Assistant) Tj ET
-BT /F2 7.2 Tf 72 679 Td (Maximum Marks: 5 Marks) Tj ET
-BT /F2 8.5 Tf 72 653 Td (Solution Architecture Diagram:) Tj ET
-BT /F1 6.3 Tf 72 639 Td (Fill the structural boxes with EduGenie's actual technologies and components.) Tj ET
-0.87 0.94 0.97 rg 0.08 0.18 0.24 RG 1.5 w 92 555 428 58 re B
-BT /F2 8.2 Tf 102 595 Td (Presentation / Client Layer) Tj ET
-BT /F1 6.4 Tf 102 579 Td (Web application interface) Tj ET
-BT /F1 6.4 Tf 102 569 Td (HTML + CSS + JavaScript) Tj ET
-0.08 0.18 0.24 RG 1.2 w 306 555 m 306 535 l S
-302 529 m 306 535 l 310 529 l S
-0.96 0.92 0.78 rg 0.08 0.18 0.24 RG 1.5 w 92 472 428 58 re B
-BT /F2 8.2 Tf 102 512 Td (API Gateway / Load Balancer) Tj ET
-BT /F1 6.4 Tf 102 496 Td (Application request routing and validation) Tj ET
-BT /F1 6.4 Tf 102 486 Td (FastAPI + Uvicorn) Tj ET
-0.08 0.18 0.24 RG 1.2 w 306 472 m 306 452 l S
-302 446 m 306 452 l 310 446 l S
-0.90 0.95 0.89 rg 0.08 0.18 0.24 RG 1.5 w 55 333 150 100 re B
-BT /F2 8.2 Tf 65 415 Td (Auth Service) Tj ET
-BT /F1 6.4 Tf 65 399 Td (No user authentication in MVP) Tj ET
-BT /F1 6.4 Tf 65 389 Td (API key is server-side) Tj ET
-BT /F1 6.4 Tf 65 379 Td (.env + python-dotenv) Tj ET
-BT /F1 6.4 Tf 65 369 Td (GEMINI_API_KEY) Tj ET
-0.90 0.95 0.89 rg 0.08 0.18 0.24 RG 1.5 w 231 333 150 100 re B
-BT /F2 8.2 Tf 241 415 Td (Core Logic Service) Tj ET
-BT /F1 6.4 Tf 241 399 Td (Q&A) Tj ET
-BT /F1 6.4 Tf 241 389 Td (Concept Explanation) Tj ET
-BT /F1 6.4 Tf 241 379 Td (Quiz Generation) Tj ET
-BT /F1 6.4 Tf 241 369 Td (Summarization) Tj ET
-BT /F1 6.4 Tf 241 359 Td (Learning Path) Tj ET
-0.90 0.95 0.89 rg 0.08 0.18 0.24 RG 1.5 w 407 333 150 100 re B
-BT /F2 8.2 Tf 417 415 Td (External API Integrations) Tj ET
-BT /F1 6.4 Tf 417 399 Td (Google Gemini API) Tj ET
-BT /F1 6.4 Tf 417 389 Td (Q&A + Quiz) Tj ET
-BT /F1 6.4 Tf 417 379 Td (Summary) Tj ET
-BT /F1 6.4 Tf 417 369 Td (Learning recommendations) Tj ET
-0.08 0.18 0.24 RG 1.2 w 306 333 m 306 305 l S
-302 299 m 306 305 l 310 299 l S
-0.98 0.89 0.90 rg 0.08 0.18 0.24 RG 1.5 w 92 205 428 100 re B
-BT /F2 8.2 Tf 102 287 Td (Data / Storage Layer) Tj ET
-BT /F1 6.4 Tf 102 271 Td (Current MVP: no persistent database) Tj ET
-BT /F1 6.4 Tf 102 261 Td (Application files and runtime state) Tj ET
-BT /F1 6.4 Tf 102 251 Td (Local model: LaMini-Flan-T5-783M) Tj ET
-BT /F1 6.4 Tf 102 241 Td (Used for local concept explanation) Tj ET
-BT /F2 6.5 Tf 72 174 Td (Request flow: Student ∫w^~)ﬁv Web UI ∫w^~)ﬁv FastAPI"È›y¯ßy“ Core Logic+ßuÁ‚ùÁR Gemini / Local Model"È›y¯ßy“ Result"È›y¯ßy“ Student) Tj ET
-endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 8 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 9 0 R >>
 endobj
 8 0 obj
-<< /Length 3064 >>
+<< /Length 2773 >>
 stream
-BT /F2 14 Tf 198 758 Td (Solution Architecture) Tj ET
-BT /F1 7.5 Tf 72 740 Td (SMARTBRIDGE / SKILL WALL) Tj ET
-BT /F2 9 Tf 72 715 Td (Component Description Table) Tj ET
-0.90 0.90 0.90 rg 0.08 0.18 0.24 RG 0.8 w 72 629 468 61 re B
-204 690 m 204 629 l S
-394 690 m 394 629 l S
-BT /F2 6.2 Tf 78 672 Td (Component Name) Tj ET
-BT /F2 6.2 Tf 210 672 Td (Description / Role in Architecture) Tj ET
-BT /F2 6.2 Tf 405 672 Td (Technologies Used) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 568 468 61 re S
-204 629 m 204 568 l S
-394 629 m 394 568 l S
-BT /F2 5.8 Tf 78 613 Td (Presentation Layer) Tj ET
-BT /F1 5.7 Tf 210 613 Td (Student-facing interface for learning tasks, inputs, and generated results.) Tj ET
-BT /F1 5.7 Tf 405 613 Td (HTML, CSS, JavaScript) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 507 468 61 re S
-204 568 m 204 507 l S
-394 568 m 394 507 l S
-BT /F2 5.8 Tf 78 552 Td (API Gateway) Tj ET
-BT /F1 5.7 Tf 210 552 Td (Receives requests, validates input, routes tasks, returns responses.) Tj ET
-BT /F1 5.7 Tf 405 552 Td (FastAPI, Uvicorn) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 446 468 61 re S
-204 507 m 204 446 l S
-394 507 m 394 446 l S
-BT /F2 5.8 Tf 78 491 Td (Auth Service) Tj ET
-BT /F1 5.7 Tf 210 491 Td (No user login/authentication in the MVP; Gemini credential remains server-side.) Tj ET
-BT /F1 5.7 Tf 405 491 Td (.env, python-dotenv) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 385 468 61 re S
-204 446 m 204 385 l S
-394 446 m 394 385 l S
-BT /F2 5.8 Tf 78 430 Td (Core Logic Service) Tj ET
-BT /F1 5.7 Tf 210 430 Td (Coordinates Q&A, explanation, quiz, summary, and learning-path modules.) Tj ET
-BT /F1 5.7 Tf 405 430 Td (Python, FastAPI) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 324 468 61 re S
-204 385 m 204 324 l S
-394 385 m 394 324 l S
-BT /F2 5.8 Tf 78 369 Td (External API Integrations) Tj ET
-BT /F1 5.7 Tf 210 369 Td (Generative AI service used for the major learning workflows.) Tj ET
-BT /F1 5.7 Tf 405 369 Td (Google Gemini API) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 263 468 61 re S
-204 324 m 204 263 l S
-394 324 m 394 263 l S
-BT /F2 5.8 Tf 78 308 Td (Local AI Model) Tj ET
-BT /F1 5.7 Tf 210 308 Td (Provides local concept explanation without requiring a remote call for that task.) Tj ET
-BT /F1 5.7 Tf 405 308 Td (LaMini-Flan-T5-783M, Transformers, PyTorch) Tj ET
-0.08 0.18 0.24 RG 0.8 w 72 202 468 61 re S
-204 263 m 204 202 l S
-394 263 m 394 202 l S
-BT /F2 5.8 Tf 78 247 Td (Data / Storage Layer) Tj ET
-BT /F1 5.7 Tf 210 247 Td (No persistent database in current MVP; project/runtime files and local model are used.) Tj ET
-BT /F1 5.7 Tf 405 247 Td (Local storage / model files) Tj ET
-BT /F2 8.5 Tf 72 205 Td (Architecture Notes) Tj ET
-BT /F1 6.4 Tf 72 188 Td (∫w^~)ﬁv The six structural boxes from the reference are retained and filled with EduGenie-specific components.) Tj ET
-BT /F1 6.4 Tf 72 176 Td +ßuÁ‚ùÁb Gemini handles Q&A, quiz generation, summarization, and learning recommendations.) Tj ET
-BT /F1 6.4 Tf 72 164 Td *È›y¯ßy“ LaMini-Flan-T5-783M handles local concept explanation.) Tj ET
-BT /F1 6.4 Tf 72 152 Td (∫w^~)ﬁv The current MVP does not include a persistent database or user-authentication system.) Tj ET
+BT /F2 13 Tf 72 755 Td (SMARTBRIDGE / SKILL WALL) Tj ET
+BT /F2 16 Tf 218.64 730 Td (Solution Architecture) Tj ET
+0 0 0 RG 0.8 w 65 628 482 88 re S
+0 0 0 RG 0.8 w 205 628 m 205 716 l S
+0 0 0 RG 0.8 w 65 694 m 547 694 l S
+0 0 0 RG 0.8 w 65 672 m 547 672 l S
+0 0 0 RG 0.8 w 65 650 m 547 650 l S
+BT /F2 8 Tf 72 703 Td (Date) Tj ET
+BT /F1 8 Tf 220 703 Td (29 September 2026) Tj ET
+BT /F2 8 Tf 72 681 Td (Team ID) Tj ET
+BT /F1 8 Tf 220 681 Td (SWTID-2026-3580) Tj ET
+BT /F2 8 Tf 72 659 Td (Project Name) Tj ET
+BT /F1 8 Tf 220 659 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
+BT /F2 8 Tf 72 637 Td (Maximum Marks) Tj ET
+BT /F1 8 Tf 220 637 Td (5 Marks) Tj ET
+BT /F2 8.5 Tf 65 603 Td (Solution Architecture Diagram:) Tj ET
+BT /F1 7 Tf 65 588 Td (Provide a high-level visual representation of the solution architecture. Fill the specific technologies) Tj ET
+BT /F1 7 Tf 65 576 Td (and components directly into the structural boxes.) Tj ET
+0.82 0.93 0.95 rg 65 405 482 53 re f
+0 0 0 RG 0.8 w 65 405 482 53 re S
+BT /F2 9 Tf 242.82 435 Td (Presentation / Client Layer) Tj ET
+BT /F3 7.5 Tf 245.55 418 Td (Web App: HTML, CSS & JavaScript) Tj ET
+0 0 0 RG 1 w 306 405 m 306 382 l S 302 388 m 306 382 l 310 388 l S
+1 0.94 0.72 rg 65 269 482 93 re f
+0 0 0 RG 0.8 w 65 269 482 93 re S
+BT /F2 9 Tf 242.82 338 Td (API Gateway / Load Balancer) Tj ET
+BT /F3 7.5 Tf 212.39999999999998 319 Td (FastAPI + Uvicorn ‚Äî request routing & validation) Tj ET
+0 0 0 RG 1 w 306 269 m 306 253 l S 302 259 m 306 253 l 310 259 l S
+0.84 0.93 0.85 rg 65 190 160 63 re f
+0 0 0 RG 0.8 w 65 190 160 63 re S
+BT /F2 8.5 Tf 118.48 236 Td (Auth Service) Tj ET
+BT /F3 6.6 Tf 95.236 219 Td (No user authentication in MVP) Tj ET
+BT /F3 6.6 Tf 100.384 208 Td (Server-side GEMINI_API_KEY) Tj ET
+BT /F3 6.6 Tf 110.68 197 Td (.env + python-dotenv) Tj ET
+0.84 0.93 0.85 rg 225 190 160 63 re f
+0 0 0 RG 0.8 w 225 190 160 63 re S
+BT /F2 8.5 Tf 265.22 236 Td (Core Logic Service) Tj ET
+BT /F3 6.6 Tf 270.68 219 Td (Q&A ‚Ä¢ Explain ‚Ä¢ Quiz) Tj ET
+BT /F3 6.6 Tf 262.1 208 Td (Summarize ‚Ä¢ Learning Path) Tj ET
+BT /F3 6.6 Tf 275.828 197 Td (Python AI modules) Tj ET
+0.84 0.93 0.85 rg 385 190 160 63 re f
+0 0 0 RG 0.8 w 385 190 160 63 re S
+BT /F2 8.5 Tf 409.75 236 Td (External API Integrations) Tj ET
+BT /F3 6.6 Tf 435.828 219 Td (Google Gemini API) Tj ET
+BT /F3 6.6 Tf 430.68 208 Td (Q&A ‚Ä¢ Quiz ‚Ä¢ Summary) Tj ET
+BT /F3 6.6 Tf 423.81600000000003 197 Td (Learning recommendations) Tj ET
+0 0 0 RG 1 w 306 190 m 306 166 l S 302 172 m 306 166 l 310 172 l S
+0.97 0.84 0.86 rg 65 96 482 53 re f
+0 0 0 RG 0.8 w 65 96 482 53 re S
+BT /F2 8.5 Tf 261.8 126 Td (Data / Storage Layer) Tj ET
+BT /F3 6.8 Tf 240.584 109 Td (No persistent database in current MVP) Tj ET
+BT /F3 6.8 Tf 249.424 98 Td (Local model: LaMini-Flan-T5-783M) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 1657 >>
+stream
+BT /F2 13 Tf 72 755 Td (SMARTBRIDGE / SKILL WALL) Tj ET
+BT /F2 15 Tf 72 730 Td (Component Description Table) Tj ET
+0.9 0.92 0.94 rg 65 625 482 31 re f
+0 0 0 RG 0.8 w 65 625 482 31 re S
+0 0 0 RG 0.8 w 215 625 m 215 656 l S
+0 0 0 RG 0.8 w 475 625 m 475 656 l S
+BT /F2 7.5 Tf 72 638 Td (Component Name) Tj ET
+BT /F2 7.5 Tf 220 638 Td (Description / Role in Architecture) Tj ET
+BT /F2 7.5 Tf 485 638 Td (Technologies Used) Tj ET
+0 0 0 RG 0.8 w 65 570 482 55 re S
+0 0 0 RG 0.8 w 215 570 m 215 625 l S
+0 0 0 RG 0.8 w 475 570 m 475 625 l S
+BT /F2 6.5 Tf 72 602 Td (Presentation Layer) Tj ET
+BT /F1 6 Tf 220 602 Td (Student-facing interface for learning tasks and generated results.) Tj ET
+BT /F1 5.8 Tf 485 602 Td (HTML, CSS, JS) Tj ET
+0 0 0 RG 0.8 w 65 515 482 55 re S
+0 0 0 RG 0.8 w 215 515 m 215 570 l S
+0 0 0 RG 0.8 w 475 515 m 475 570 l S
+BT /F2 6.5 Tf 72 547 Td (API Gateway) Tj ET
+BT /F1 6 Tf 220 547 Td (Receives, validates, routes requests and returns responses.) Tj ET
+BT /F1 5.8 Tf 485 547 Td (FastAPI, Uvicorn) Tj ET
+0 0 0 RG 0.8 w 65 460 482 55 re S
+0 0 0 RG 0.8 w 215 460 m 215 515 l S
+0 0 0 RG 0.8 w 475 460 m 475 515 l S
+BT /F2 6.5 Tf 72 492 Td (Core Logic Service) Tj ET
+BT /F1 6 Tf 220 492 Td (Coordinates Q&A, explanation, quiz, summary and learning path.) Tj ET
+BT /F1 5.8 Tf 485 492 Td (Python modules, Gemini, LaMini) Tj ET
+0 0 0 RG 0.8 w 65 405 482 55 re S
+0 0 0 RG 0.8 w 215 405 m 215 460 l S
+0 0 0 RG 0.8 w 475 405 m 475 460 l S
+BT /F2 6.5 Tf 72 437 Td (Data / Storage) Tj ET
+BT /F1 6 Tf 220 437 Td (MVP has no persistent database; local model/application files are used.) Tj ET
+BT /F1 5.8 Tf 485 437 Td (Local storage, model files) Tj ET
 endstream
 endobj
 xref
-0 9
+0 10
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000121 00000 n 
-0000000257 00000 n 
-0000000327 00000 n 
-0000000402 00000 n 
-0000003227 00000 n 
-0000003363 00000 n 
+0000000267 00000 n 
+0000000337 00000 n 
+0000000412 00000 n 
+0000000490 00000 n 
+0000000636 00000 n 
+0000003460 00000 n 
 trailer
-<< /Size 9 /Root 1 0 R >>
+<< /Size 10 /Root 1 0 R >>
 startxref
-6478
+5168
 %%EOF
