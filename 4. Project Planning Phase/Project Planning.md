@@ -15,5 +15,4 @@ Aaladiyan V — Backend API with FastAPI; Build Web Interface; Live Integration;
 Kodeeswaran S — Pre-requisites; Workflow; Functional Testing.
 Sundaravel T — Select AI Models; Module Implementation; Run Locally.
 
-Deliverable flow
-Planning → Development → Testing → Documentation → Demonstration → Submission.
+Flow: Planning → Development → Testing → Documentation → Demonstration → Submission.
