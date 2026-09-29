@@ -1,123 +1,58 @@
-# EduGenie: Google Gemini Powered Learning Assistant
+# EduGenie — Google Gemini Powered Learning Assistant
 
-EduGenie is a lightweight AI-powered educational assistant for students. It supports question answering, concept explanation, quiz generation, long-passage summarization, and structured learning recommendations.
+## Submission-ready repository
 
-## Project technology
+This repository contains the working EduGenie application and the eight-phase SkillWallet submission structure from the provided project template.
 
-The implementation follows the supplied EduGenie project documentation:
+## Eight project phases
 
-- FastAPI backend
-- HTML + CSS + JavaScript frontend
-- Gemini API using a currently supported Gemini model (default: Gemini 3.8 Flash)
-- LaMini-Flan-T5-783M for local concept explanation
-- Uvicorn ASGI server
-- Jinja2 templates
+1. Brainstorming & Ideation — problem statements, empathy map, idea prioritization.
+2. Requirement Analysis — customer journey, data flow, solution requirements, technology stack.
+3. Project Design Phase — problem-solution fit, proposed solution, solution architecture.
+4. Project Planning Phase — project planning and team allocation.
+5. Project Development Phase — code layout, coding solution, functional features.
+6. Project Testing — performance/testing approach and automated tests.
+7. Project Documentation — executable instructions and project documentation.
+8. Project Demonstration — communication, feature demonstration, demo planning, scalability/future plan, and team involvement.
 
-## Features
+## Application
 
-### 1. Asking questions
-A student submits a question and EduGenie sends it to the configured Gemini model for a clear educational answer.
+EduGenie provides Question Answering, Concept Explanation, Text Summarization, Quiz Generation with answer checking, and Beginner → Intermediate → Advanced Learning Recommendations.
 
-### 2. Explanation of any topic
-The Explain feature uses MBZUAI/LaMini-Flan-T5-783M locally to produce a simple explanation.
+## Working application layout
 
-### 3. Summarising long paragraphs
-Study material is sent to Gemini and returned as a focused summary.
+The application source is kept at repository root for direct execution: main.py, gemini_client.py, qna.py, explanation_module.py, quiz_module.py, summary_module.py, learning_path.py, templates/index.html, static/style.css, tests/, requirements.txt, .env.example, .gitignore.
 
-### 4. Generating quizzes
-EduGenie generates exactly three multiple-choice questions with four options each. Students can select an option and click Check Answer to receive immediate feedback.
+## Team
 
-### 5. Learning recommendations
-EduGenie generates a structured path from Beginner to Intermediate to Advanced, including topics, resources, timelines and practice.
+- Aaladiyan V — Team Lead: Backend API with FastAPI; Build Web Interface; Live Integration; Future Enhancements.
+- Kodeeswaran S: Pre-requisites; Workflow; Functional Testing.
+- Sundaravel T: Select AI Models; Module Implementation; Run Locally.
 
-## Architecture
+## Run
 
-Student input
-→ HTML/CSS/JavaScript frontend
-→ FastAPI endpoint
-→ selected module
-→ the configured Gemini model or LaMini-Flan-T5-783M
-→ result
-→ browser
+python -m venv .venv
+.venv\\Scripts\\activate
+python -m pip install -r requirements.txt
+copy .env.example .env
+uvicorn main:app --reload
 
-## Project structure
+Open http://127.0.0.1:8000.
 
-EduGenie/
-- main.py
-- explanation_module.py
-- qna.py
-- quiz_module.py
-- summary_module.py
-- learning_path.py
-- gemini_client.py
-- templates/index.html
-- static/style.css
-- tests/
-- requirements.txt
-- .env.example
-- .gitignore
+## Configuration
 
-## Setup
-
-Create a virtual environment:
-
-    python -m venv .venv
-    .venv\Scripts\activate
-
-Install dependencies:
-
-    python -m pip install -r requirements.txt
-
-Create the local environment file:
-
-    copy .env.example .env
-
-Edit .env:
-
-    GEMINI_API_KEY=your_api_key_here
-    GEMINI_MODEL=gemini-3.8-flash
-
-Run the application:
-
-    uvicorn main:app --reload
-
-Open:
-
-    http://127.0.0.1:8000
-
-## Local LaMini model
-
-The first time the Explain feature is used, Hugging Face downloads MBZUAI/LaMini-Flan-T5-783M and stores it in the local Hugging Face cache. Later runs reuse the cached model unless the cache is removed or the environment changes.
-
-## API endpoints
-
-- POST /qa
-- POST /explain
-- POST /quiz
-- POST /summarize
-- POST /learn/recommendations
-
-Compatibility aliases under /api/* are also available.
-
-## Security
-
-Never commit .env or a Gemini API key to GitHub. Use environment variables or hosting secrets for deployment.
+Set GEMINI_API_KEY in local .env. The model is configurable through GEMINI_MODEL.
 
 ## Testing
 
-Run:
+pytest -q
 
-    pytest -q
+AI calls are mocked in automated tests where appropriate.
 
-The tests mock AI generation where appropriate, so they do not require a live Gemini API key.
+## Security
 
-## SkillWallet deliverables
+Never commit .env or API keys.
 
-- GitHub repository link
-- Documentation
-- Demo video
-- Working application screenshots
+## Submission document format
 
-## Model compatibility note
-
-The supplied project document specifies Gemini 1.5 Pro. Google shut down the Gemini 1.5 Pro API model on September 29, 2025, so it now returns 404 errors. The application therefore defaults to the currently supported `gemini-3.8-flash` model while keeping the same Gemini-powered functionality. The model can be changed through `GEMINI_MODEL` without changing application code.
+The reference template uses PDF deliverables. The eight numbered folders and all named deliverable items are present in this repository. Completed content is stored as Markdown so it remains directly reviewable and version controlled.
