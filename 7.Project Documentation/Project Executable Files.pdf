@@ -4,106 +4,251 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R] /Count 3 >>
+<< /Type /Pages /Kids [4 0 R 5 0 R 6 0 R] /Count 3 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 8 0 R >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 9 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 7 0 R >> >> /Contents 8 0 R >>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 10 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 7 0 R >> >> /Contents 9 0 R >>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 7 0 R >> >> /Contents 10 0 R >>
 endobj
 7 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 8 0 obj
-<< /Length 1400 >>
+<< /Length 2822 >>
 stream
-BT
-/F2 16 Tf 210 790 Td (Project Executable Files) Tj
-50 650 495 100 re S
-60 746 Td (Date: 30 September 2026) Tj
-60 728 Td (Team ID: SWTID-2026-3580) Tj
-60 710 Td (Project Name: EduGenie: Google Gemini Powered Learning Assistant) Tj
-60 692 Td (Maximum Marks: 3 Marks) Tj
-/F2 11 Tf 50 664 Td (Project Executable Files) Tj
-50 646 Td (This section requires submission of all executable and deployable files for the project.) Tj
-50 633 Td (Files are organized so the evaluator can run or deploy the solution using the provided instructions.) Tj
-/F2 11 Tf 50 611 Td (Step 1: Submission Checklist) Tj
-50 260 495 300 re S
-58 577 Td (1. Complete source code \(all files and folders\) ........ YES) Tj
-58 562 Td (2. README / Setup Guide ............................... YES) Tj
-58 547 Td (3. requirements.txt / dependency file ................ YES) Tj
-58 532 Td (4. Database schema / seed files ........................ NA) Tj
-58 517 Td (5. Environment configuration \(.env.example or similar\) YES) Tj
-58 502 Td (6. Deployed application URL ............................ NA - local) Tj
-58 487 Td (7. APK / Executable binary ............................. NA - web app) Tj
-58 472 Td (8. Dockerfile / Containerization config ................ NA) Tj
-58 457 Td (9. Test files and test results .......................... YES) Tj
-58 442 Td (10. Demo video / walkthrough ............................ To be added) Tj
-ET
+0.12 0.12 0.12 rg
+0.12 0.12 0.12 RG
+0.7 w
+BT /F2 10 Tf 56 808 Td (SMARTBRIDGE) Tj ET
+BT /F2 10 Tf 250 808 Td (SKILL WALL) Tj ET
+BT /F2 15 Tf 190 782 Td (Project Executable Files) Tj ET
+50 765 m 545 765 l S
+BT /F2 8 Tf 58 744 Td (Date) Tj ET
+BT /F1 8 Tf 155 744 Td (30 September 2026) Tj ET
+BT /F2 8 Tf 58 720 Td (Team ID) Tj ET
+BT /F1 8 Tf 155 720 Td (SWTID-2026-3580) Tj ET
+BT /F2 8 Tf 58 696 Td (Project Name) Tj ET
+BT /F1 8 Tf 155 696 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
+BT /F2 8 Tf 58 672 Td (Maximum Marks) Tj ET
+BT /F1 8 Tf 155 672 Td (3 Marks) Tj ET
+50 650 m 545 650 l S
+BT /F2 10 Tf 50 630 Td (Project Executable Files) Tj ET
+BT /F1 8 Tf 50 612 Td (This section requires submission of all executable and deployable files for the project.) Tj ET
+BT /F1 8 Tf 50 598 Td (Files are organized so the evaluator can run the solution using the provided instructions.) Tj ET
+BT /F2 10 Tf 50 570 Td (Step 1: Submission Checklist) Tj ET
+50 545 m 545 545 l S
+50 510 m 545 510 l S
+50 475 m 545 475 l S
+50 440 m 545 440 l S
+50 405 m 545 405 l S
+50 370 m 545 370 l S
+50 335 m 545 335 l S
+50 300 m 545 300 l S
+50 265 m 545 265 l S
+50 230 m 545 230 l S
+50 195 m 545 195 l S
+50 195 m 50 545 l S
+80 195 m 80 545 l S
+400 195 m 400 545 l S
+545 195 m 545 545 l S
+50 510 495 35 re f
+BT /F2 7 Tf 56 524 Td (S.No) Tj ET
+BT /F2 7 Tf 86 524 Td (Item to Submit) Tj ET
+BT /F2 7 Tf 406 524 Td (Submitted \(Yes / No / NA\)) Tj ET
+BT /F1 7 Tf 56 493 Td (1) Tj ET
+BT /F1 7 Tf 86 493 Td (Complete source code \(all files and folders\)) Tj ET
+BT /F1 7 Tf 406 493 Td (Yes) Tj ET
+BT /F1 7 Tf 56 458 Td (2) Tj ET
+BT /F1 7 Tf 86 458 Td (README / Setup Guide) Tj ET
+BT /F1 7 Tf 406 458 Td (Yes) Tj ET
+BT /F1 7 Tf 56 423 Td (3) Tj ET
+BT /F1 7 Tf 86 423 Td (requirements.txt / dependency file) Tj ET
+BT /F1 7 Tf 406 423 Td (Yes) Tj ET
+BT /F1 7 Tf 56 388 Td (4) Tj ET
+BT /F1 7 Tf 86 388 Td (Database schema / seed files) Tj ET
+BT /F1 7 Tf 406 388 Td (NA - no database in current MVP) Tj ET
+BT /F1 7 Tf 56 353 Td (5) Tj ET
+BT /F1 7 Tf 86 353 Td (Environment configuration file) Tj ET
+BT /F1 7 Tf 406 353 Td (Yes - secret key not committed) Tj ET
+BT /F1 7 Tf 56 318 Td (6) Tj ET
+BT /F1 7 Tf 86 318 Td (Deployed application URL) Tj ET
+BT /F1 7 Tf 406 318 Td (NA - local submission) Tj ET
+BT /F1 7 Tf 56 283 Td (7) Tj ET
+BT /F1 7 Tf 86 283 Td (APK / Executable binary) Tj ET
+BT /F1 7 Tf 406 283 Td (NA - web application) Tj ET
+BT /F1 7 Tf 56 248 Td (8) Tj ET
+BT /F1 7 Tf 86 248 Td (Dockerfile / Containerization config) Tj ET
+BT /F1 7 Tf 406 248 Td (NA - not included) Tj ET
+BT /F1 7 Tf 56 213 Td (9) Tj ET
+BT /F1 7 Tf 86 213 Td (Test files and test results) Tj ET
+BT /F1 7 Tf 406 213 Td (Yes) Tj ET
+BT /F1 7 Tf 56 178 Td (10) Tj ET
+BT /F1 7 Tf 86 178 Td (Demo video or walkthrough) Tj ET
+BT /F1 7 Tf 406 178 Td (To be provided) Tj ET
 endstream
 endobj
 9 0 obj
-<< /Length 1355 >>
+<< /Length 3818 >>
 stream
-BT
-/F2 12 Tf 50 790 Td (Step 2: File / Folder Structure) Tj
-50 768 Td (Provide an overview of the project's file and folder structure below:) Tj
-50 410 495 320 re S
-60 732 Td (EduGenie/) Tj
-60 715 Td (  main.py - FastAPI application and routes) Tj
-60 698 Td (  gemini_client.py - Gemini API client configuration) Tj
-60 681 Td (  qna.py - Q&A module) Tj
-60 664 Td (  explanation_module.py - concept explanation module) Tj
-60 647 Td (  quiz_module.py - quiz generation module) Tj
-60 630 Td (  summary_module.py - summarization module) Tj
-60 613 Td (  learning_path.py - learning recommendations module) Tj
-60 596 Td (  templates/index.html - web interface) Tj
-60 579 Td (  static/style.css - frontend styling) Tj
-60 562 Td (  tests/test_api.py - API tests) Tj
-60 545 Td (  tests/test_modules.py - module tests) Tj
-60 528 Td (  requirements.txt - Python dependencies) Tj
-60 511 Td (  README.md - setup and run instructions) Tj
-/F2 11 Tf 50 487 Td (Step 3: Deployment / Access Details) Tj
-50 180 495 190 re S
-60 453 Td (Hosted / Deployed URL: Not hosted; local execution) Tj
-60 436 Td (Login Credentials \(Demo\): Not required for current MVP) Tj
-60 419 Td (Platform / Hosting Provider: Local FastAPI + Uvicorn) Tj
-60 402 Td (Repository Link: https://github.com/aladiyan33/EduGenie) Tj
-60 385 Td (Demo Video Link: To be added during final demonstration) Tj
-ET
+0.12 0.12 0.12 rg
+0.12 0.12 0.12 RG
+0.7 w
+BT /F2 10 Tf 56 808 Td (SMARTBRIDGE) Tj ET
+BT /F2 10 Tf 250 808 Td (SKILL WALL) Tj ET
+BT /F2 15 Tf 190 782 Td (Project Executable Files) Tj ET
+50 765 m 545 765 l S
+BT /F2 8 Tf 58 744 Td (Date) Tj ET
+BT /F1 8 Tf 155 744 Td (30 September 2026) Tj ET
+BT /F2 8 Tf 58 720 Td (Team ID) Tj ET
+BT /F1 8 Tf 155 720 Td (SWTID-2026-3580) Tj ET
+BT /F2 8 Tf 58 696 Td (Project Name) Tj ET
+BT /F1 8 Tf 155 696 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
+BT /F2 8 Tf 58 672 Td (Maximum Marks) Tj ET
+BT /F1 8 Tf 155 672 Td (3 Marks) Tj ET
+50 650 m 545 650 l S
+BT /F2 10 Tf 50 630 Td (Project Executable Files) Tj ET
+BT /F1 8 Tf 50 612 Td (This section requires submission of all executable and deployable files for the project.) Tj ET
+BT /F1 8 Tf 50 598 Td (Files are organized so the evaluator can run the solution using the provided instructions.) Tj ET
+BT /F2 10 Tf 50 570 Td (Step 2: File / Folder Structure) Tj ET
+BT /F1 8 Tf 50 552 Td (EduGenie repository structure:) Tj ET
+50 500 495 25 re f
+50 525 m 545 525 l S
+50 500 m 545 500 l S
+50 475 m 545 475 l S
+50 450 m 545 450 l S
+50 425 m 545 425 l S
+50 400 m 545 400 l S
+50 375 m 545 375 l S
+50 350 m 545 350 l S
+50 325 m 545 325 l S
+50 300 m 545 300 l S
+50 275 m 545 275 l S
+50 250 m 545 250 l S
+50 225 m 545 225 l S
+50 200 m 545 200 l S
+50 175 m 545 175 l S
+220 525 m 220 175 l S
+BT /F2 6.8 Tf 56 508 Td (Path / File) Tj ET
+BT /F2 6.8 Tf 226 508 Td (Purpose) Tj ET
+BT /F1 6.8 Tf 56 483 Td (main.py) Tj ET
+BT /F1 6.8 Tf 226 483 Td (FastAPI app, routes, validation, HTML rendering) Tj ET
+BT /F1 6.8 Tf 56 458 Td (gemini_client.py) Tj ET
+BT /F1 6.8 Tf 226 458 Td (Shared Google Gemini client configuration) Tj ET
+BT /F1 6.8 Tf 56 433 Td (qna.py) Tj ET
+BT /F1 6.8 Tf 226 433 Td (Question-and-answer module) Tj ET
+BT /F1 6.8 Tf 56 408 Td (explanation_module.py) Tj ET
+BT /F1 6.8 Tf 226 408 Td (Local LaMini-Flan-T5 explanation module) Tj ET
+BT /F1 6.8 Tf 56 383 Td (quiz_module.py) Tj ET
+BT /F1 6.8 Tf 226 383 Td (Quiz generation and JSON parsing) Tj ET
+BT /F1 6.8 Tf 56 358 Td (summary_module.py) Tj ET
+BT /F1 6.8 Tf 226 358 Td (Long-passage summarization) Tj ET
+BT /F1 6.8 Tf 56 333 Td (learning_path.py) Tj ET
+BT /F1 6.8 Tf 226 333 Td (Learning recommendations) Tj ET
+BT /F1 6.8 Tf 56 308 Td (templates/index.html) Tj ET
+BT /F1 6.8 Tf 226 308 Td (EduGenie web interface) Tj ET
+BT /F1 6.8 Tf 56 283 Td (static/style.css) Tj ET
+BT /F1 6.8 Tf 226 283 Td (Responsive styling) Tj ET
+BT /F1 6.8 Tf 56 258 Td (tests/test_api.py) Tj ET
+BT /F1 6.8 Tf 226 258 Td (FastAPI endpoint tests) Tj ET
+BT /F1 6.8 Tf 56 233 Td (tests/test_modules.py) Tj ET
+BT /F1 6.8 Tf 226 233 Td (Module-level tests) Tj ET
+BT /F1 6.8 Tf 56 208 Td (requirements.txt) Tj ET
+BT /F1 6.8 Tf 226 208 Td (Python dependencies) Tj ET
+BT /F1 6.8 Tf 56 183 Td (README.md) Tj ET
+BT /F1 6.8 Tf 226 183 Td (Setup and project documentation) Tj ET
+BT /F2 10 Tf 50 155 Td (Step 3: Deployment / Access Details) Tj ET
+50 135 m 545 135 l S
+50 113 m 545 113 l S
+50 91 m 545 91 l S
+50 69 m 545 69 l S
+50 47 m 545 47 l S
+50 25 m 545 25 l S
+50 3 m 545 3 l S
+175 135 m 175 3 l S
+50 113 495 22 re f
+BT /F2 6.8 Tf 56 120 Td (Field) Tj ET
+BT /F2 6.8 Tf 181 120 Td (Details) Tj ET
+BT /F1 6.8 Tf 56 98 Td (Hosted / Deployed URL) Tj ET
+BT /F1 6.8 Tf 181 98 Td (Not deployed; currently run locally.) Tj ET
+BT /F1 6.8 Tf 56 76 Td (Login Credentials \(Demo\)) Tj ET
+BT /F1 6.8 Tf 181 76 Td (Not required for current MVP.) Tj ET
+BT /F1 6.8 Tf 56 54 Td (Platform / Hosting Provider) Tj ET
+BT /F1 6.8 Tf 181 54 Td (Local Python + FastAPI + Uvicorn.) Tj ET
+BT /F1 6.8 Tf 56 32 Td (Repository Link) Tj ET
+BT /F1 6.8 Tf 181 32 Td (https://github.com/aladiyan33/EduGenie) Tj ET
+BT /F1 6.8 Tf 56 10 Td (Demo Video Link) Tj ET
+BT /F1 6.8 Tf 181 10 Td (To be added for final demonstration.) Tj ET
 endstream
 endobj
 10 0 obj
-<< /Length 1226 >>
+<< /Length 2917 >>
 stream
-BT
-/F2 12 Tf 50 790 Td (Step 4: Run Instructions) Tj
-50 768 Td (Provide clear, step-by-step instructions for the evaluator to run the project locally:) Tj
-50 410 495 320 re S
-60 732 Td (Pre-requisites: Python 3.x, Git, internet access, valid Gemini API key.) Tj
-60 714 Td (Step 1: git clone https://github.com/aladiyan33/EduGenie.git) Tj
-60 696 Td (Step 2: cd EduGenie) Tj
-60 678 Td (Step 3: Create and activate a Python virtual environment.) Tj
-60 660 Td (Step 4: pip install -r requirements.txt) Tj
-60 642 Td (Step 5: Configure GEMINI_API_KEY locally; do not commit secrets.) Tj
-60 624 Td (Step 6: uvicorn main:app --reload) Tj
-60 606 Td (Step 7: Open http://127.0.0.1:8000 in a browser.) Tj
-/F2 11 Tf 50 582 Td (Step 5: Known Issues / Limitations) Tj
-50 160 495 210 re S
-58 546 Td (1. Gemini API requires a valid key and network access.) Tj
-58 526 Td (   Workaround / Status: Configure GEMINI_API_KEY locally.) Tj
-58 506 Td (2. LaMini explanation module requires PyTorch/model files.) Tj
-58 486 Td (   Workaround / Status: Install listed dependencies; CPU may be slower.) Tj
-58 466 Td (3. Performance measurements are not fabricated.) Tj
-58 446 Td (   Workaround / Status: Run load testing and record actual results.) Tj
-ET
+0.12 0.12 0.12 rg
+0.12 0.12 0.12 RG
+0.7 w
+BT /F2 10 Tf 56 808 Td (SMARTBRIDGE) Tj ET
+BT /F2 10 Tf 250 808 Td (SKILL WALL) Tj ET
+BT /F2 15 Tf 190 782 Td (Project Executable Files) Tj ET
+50 765 m 545 765 l S
+BT /F2 8 Tf 58 744 Td (Date) Tj ET
+BT /F1 8 Tf 155 744 Td (30 September 2026) Tj ET
+BT /F2 8 Tf 58 720 Td (Team ID) Tj ET
+BT /F1 8 Tf 155 720 Td (SWTID-2026-3580) Tj ET
+BT /F2 8 Tf 58 696 Td (Project Name) Tj ET
+BT /F1 8 Tf 155 696 Td (EduGenie: Google Gemini Powered Learning Assistant) Tj ET
+BT /F2 8 Tf 58 672 Td (Maximum Marks) Tj ET
+BT /F1 8 Tf 155 672 Td (3 Marks) Tj ET
+50 650 m 545 650 l S
+BT /F2 10 Tf 50 630 Td (Project Executable Files) Tj ET
+BT /F1 8 Tf 50 612 Td (This section requires submission of all executable and deployable files for the project.) Tj ET
+BT /F1 8 Tf 50 598 Td (Files are organized so the evaluator can run the solution using the provided instructions.) Tj ET
+BT /F2 10 Tf 50 570 Td (Step 4: Run Instructions) Tj ET
+BT /F1 8 Tf 50 552 Td (Provide clear, step-by-step instructions for the evaluator to run the project locally:) Tj ET
+BT /F2 7.5 Tf 55 525 Td (1) Tj ET
+BT /F1 7.5 Tf 75 525 Td (Install Python 3.x and open a terminal in the EduGenie repository.) Tj ET
+BT /F2 7.5 Tf 55 495 Td (2) Tj ET
+BT /F1 7.5 Tf 75 495 Td (Create and activate a virtual environment.) Tj ET
+BT /F2 7.5 Tf 55 465 Td (3) Tj ET
+BT /F1 7.5 Tf 75 465 Td (Install dependencies: python -m pip install -r requirements.txt) Tj ET
+BT /F2 7.5 Tf 55 435 Td (4) Tj ET
+BT /F1 7.5 Tf 75 435 Td (Create .env and set GEMINI_API_KEY; never commit the secret key.) Tj ET
+BT /F2 7.5 Tf 55 405 Td (5) Tj ET
+BT /F1 7.5 Tf 75 405 Td (Start: uvicorn main:app --reload) Tj ET
+BT /F2 7.5 Tf 55 375 Td (6) Tj ET
+BT /F1 7.5 Tf 75 375 Td (Open http://127.0.0.1:8000 in a browser.) Tj ET
+BT /F2 7.5 Tf 55 345 Td (7) Tj ET
+BT /F1 7.5 Tf 75 345 Td (Test Explain, Q&A, Quiz, Summary, and Learning Recommendations.) Tj ET
+BT /F2 10 Tf 50 300 Td (Step 5: Known Issues / Limitations) Tj ET
+50 280 m 545 280 l S
+50 225 m 545 225 l S
+50 170 m 545 170 l S
+50 115 m 545 115 l S
+50 60 m 545 60 l S
+50 280 m 50 60 l S
+90 280 m 90 60 l S
+310 280 m 310 60 l S
+545 280 m 545 60 l S
+50 225 495 55 re f
+BT /F2 6.5 Tf 56 262 Td (S.No) Tj ET
+BT /F2 6.5 Tf 96 262 Td (Known Issue / Limitation) Tj ET
+BT /F2 6.5 Tf 316 262 Td (Workaround / Status) Tj ET
+BT /F1 6.5 Tf 56 207 Td (1) Tj ET
+BT /F1 6.5 Tf 96 207 Td (Gemini API needs a valid API key and internet access.) Tj ET
+BT /F1 6.5 Tf 316 207 Td (Configure GEMINI_API_KEY locally.) Tj ET
+BT /F1 6.5 Tf 56 152 Td (2) Tj ET
+BT /F1 6.5 Tf 96 152 Td (Performance metrics depend on the execution environment.) Tj ET
+BT /F1 6.5 Tf 316 152 Td (Run load tests before reporting numeric results.) Tj ET
+BT /F1 6.5 Tf 56 97 Td (3) Tj ET
+BT /F1 6.5 Tf 96 97 Td (LaMini-Flan-T5 requires PyTorch and sufficient resources.) Tj ET
+BT /F1 6.5 Tf 316 97 Td (Install dependencies and use local CPU/GPU.) Tj ET
 endstream
 endobj
 xref
@@ -112,15 +257,15 @@ xref
 0000000019 00000 n 
 0000000068 00000 n 
 0000000137 00000 n 
-0000000273 00000 n 
-0000000409 00000 n 
-0000000546 00000 n 
+0000000207 00000 n 
+0000000343 00000 n 
+0000000479 00000 n 
 0000000616 00000 n 
 0000000691 00000 n 
-0000002143 00000 n 
-0000003550 00000 n 
+0000003564 00000 n 
+0000007433 00000 n 
 trailer
 << /Size 11 /Root 1 0 R >>
 startxref
-4829
+10402
 %%EOF
