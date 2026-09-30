@@ -1,5 +1,5 @@
 %PDF-1.4
-%‚„œ”
+%ASCII
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
@@ -60,7 +60,7 @@ BT /F2 10 Tf 50 570 Td (Step 1: Testing Overview) Tj ET
 BT /F2 7.5 Tf 58 533 Td (Field) Tj ET
 BT /F2 7.5 Tf 178 533 Td (Details) Tj ET
 BT /F1 7.5 Tf 58 508 Td (Testing Tool Used) Tj ET
-BT /F1 7.5 Tf 178 508 Td (Postman \(API request/response testing\)) Tj ET
+BT /F1 7.5 Tf 178 508 Td (Postman (API request/response testing)) Tj ET
 BT /F1 7.5 Tf 58 483 Td (Type of Testing) Tj ET
 BT /F1 7.5 Tf 178 483 Td (Load-oriented API testing; stress testing after baseline validation.) Tj ET
 BT /F1 7.5 Tf 58 458 Td (Target Module / API) Tj ET
@@ -71,7 +71,7 @@ BT /F1 7.5 Tf 58 408 Td (Test Date) Tj ET
 BT /F1 7.5 Tf 178 408 Td (30 September 2026) Tj ET
 BT /F2 10 Tf 50 385 Td (Step 2: Test Scenarios) Tj ET
 50 210 495 155 re S
-85 365 w 85 210 l S
+85 365 m 85 210 l S
 275 365 m 275 210 l S
 360 365 m 360 210 l S
 430 365 m 430 210 l S
@@ -82,7 +82,7 @@ BT /F2 10 Tf 50 385 Td (Step 2: Test Scenarios) Tj ET
 BT /F2 6.5 Tf 55 346 Td (S.No) Tj ET
 BT /F2 6.5 Tf 90 346 Td (Test Scenario / Description) Tj ET
 BT /F2 6.5 Tf 280 346 Td (No. of Virtual Users) Tj ET
-BT /F2 6.5 Tf 365 346 Td (Duration \(sec\)) Tj ET
+BT /F2 6.5 Tf 365 346 Td (Duration (sec)) Tj ET
 BT /F2 6.5 Tf 435 346 Td (Expected Outcome) Tj ET
 BT /F1 6.2 Tf 55 315 Td (1) Tj ET
 BT /F1 6.2 Tf 90 315 Td (Q&A endpoint request handling) Tj ET
@@ -104,10 +104,10 @@ BT /F1 6.2 Tf 90 222 Td (Learning recommendations endpoint) Tj ET
 BT /F1 6.2 Tf 280 222 Td (Planned: 1) Tj ET
 BT /F1 6.2 Tf 365 222 Td (Planned) Tj ET
 BT /F1 6.2 Tf 435 222 Td (Recommendation response returns successfully.) Tj ET
-stream
+endstream
 endobj
 11 0 obj
-<< /Length 3299 x>
+<< /Length 3299 >>
 stream
 BT /F2 10 Tf 50 810 Td (Step 3: Performance Test Results) Tj ET
 50 610 495 180 re S
@@ -126,22 +126,22 @@ BT /F2 6.3 Tf 54 772 Td (S.No) Tj ET
 BT /F2 6.3 Tf 84 772 Td (Metric) Tj ET
 BT /F2 6.3 Tf 189 772 Td (Target Value) Tj ET
 BT /F2 6.3 Tf 269 772 Td (Actual Value) Tj ET
-BT /F2 6.3 Tf 349 772 Td (Status \(Pass / Fail\)) Tj ET
+BT /F2 6.3 Tf 349 772 Td (Status (Pass / Fail)) Tj ET
 BT /F2 6.3 Tf 444 772 Td (Remarks) Tj ET
 BT /F1 5.7 Tf 54 742 Td (1) Tj ET
-BT /F1 5.7 Tf 84 742 Td (Response Time \(Avg\)) Tj ET
+BT /F1 5.7 Tf 84 742 Td (Response Time (Avg)) Tj ET
 BT /F1 5.7 Tf 189 742 Td (< 2 seconds) Tj ET
 BT /F1 5.7 Tf 269 742 Td (Not measured) Tj ET
 BT /F1 5.7 Tf 349 742 Td (Pending execution) Tj ET
 BT /F1 5.7 Tf 444 742 Td (No measured load result supplied.) Tj ET
 BT /F1 5.7 Tf 54 712 Td (2) Tj ET
-BT /F1 5.7 Tf 84 712 Td (Response Time \(Max\)) Tj ET
+BT /F1 5.7 Tf 84 712 Td (Response Time (Max)) Tj ET
 BT /F1 5.7 Tf 189 712 Td (< 5 seconds) Tj ET
 BT /F1 5.7 Tf 269 712 Td (Not measured) Tj ET
 BT /F1 5.7 Tf 349 712 Td (Pending execution) Tj ET
 BT /F1 5.7 Tf 444 712 Td (No measured load result supplied.) Tj ET
 BT /F1 5.7 Tf 54 682 Td (3) Tj ET
-BT /F1 5.7 Tf 84 682 Td (Throughput \(Req/sec\) Tj ET
+BT /F1 5.7 Tf 84 682 Td (Throughput (Req/sec)) Tj ET
 BT /F1 5.7 Tf 189 682 Td (Baseline) Tj ET
 BT /F1 5.7 Tf 269 682 Td (Not measured) Tj ET
 BT /F1 5.7 Tf 349 682 Td (Pending execution) Tj ET
@@ -169,7 +169,7 @@ BT /F2 10 Tf 50 580 Td (Step 4: Observations & Analysis) Tj ET
 BT /F2 8 Tf 58 545 Td (Key Findings:) Tj ET
 BT /F1 7 Tf 58 528 Td (EduGenie exposes FastAPI endpoints for multiple learning tasks.) Tj ET
 BT /F1 7 Tf 58 516 Td (Baseline performance values must be collected by repeated requests.) Tj ET
-BT /F2 8 Tf 58 488 Td (Bottlenecks Identified:$) Tj ET
+BT /F2 8 Tf 58 488 Td (Bottlenecks Identified:) Tj ET
 BT /F1 7 Tf 58 471 Td (No measured bottleneck is claimed without an executed performance test.) Tj ET
 BT /F2 8 Tf 58 443 Td (Optimization Steps Taken:) Tj ET
 BT /F1 7 Tf 58 426 Td (Task-specific modules and a shared Gemini client configuration are used.) Tj ET
